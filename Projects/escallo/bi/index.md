@@ -17,7 +17,7 @@ Aplicação desenvolvida para centralizar métricas estratégicas e indicadores 
 
 Atuei no desenvolvimento de dashboards, gráficos e interfaces analíticas voltadas à visualização e acompanhamento de métricas operacionais, contribuindo para uma apresentação clara e eficiente dos indicadores e dados estratégicos.
 ## Stack
-- [[javascript|Javascript]]
+- [[Tech/javascript/index.md|Javascript]]
 - [[Tech/react/index.md|React]]
-- [[redux|Redux]]
-- [[material-ui|Material UI]]
+- [[Tech/redux/index.md|Redux]]
+- [[Tech/material-ui/index.md|Material UI]]

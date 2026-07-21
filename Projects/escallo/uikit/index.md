@@ -1,7 +1,7 @@
 ---
 title: UIKit
 company:
-  - "[[template-experience|Escallo]]"
+  - "[[Experiencies/escallo/index.md|Escallo]]"
 start: 2024-03-01
 end: 2026-02-01
 order: "3"
@@ -16,8 +16,8 @@ Atuei na implementação, manutenção e evolução da biblioteca, desenvolvendo
 
 Contribuí para melhorar a consistência visual entre produtos, acelerar o desenvolvimento das aplicações e aumentar a reutilização de código entre diferentes projetos da empresa.
 ## Stack
-- [[typescript|Typescript]]
+- [[Tech/typescript/index.md|Typescript]]
 - [[Tech/react/index.md|React]]
-- [[storybook|Storybook]]
-- [[css-modules|CSS Modules]]
-- [[rollup|Rollup]]
+- [[Tech/storybook/index.md|Storybook]]
+- [[Tech/css-modules/index.md|CSS Modules]]
+- [[Tech/rollup/index.md|Rollup]]

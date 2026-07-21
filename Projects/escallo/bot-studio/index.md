@@ -1,7 +1,7 @@
 ---
 title: Bot Studio
 company:
-  - "[[template-experience|Escallo]]"
+  - "[[Experiencies/escallo/index.md|Escallo]]"
 start: 2024-03-01
 end: 2026-02-01
 order: "99"
@@ -15,5 +15,5 @@ Aplicação desenvolvida para simplificar a criação e configuração de bots p
 Atuei na reformulação da interface e prototipação das telas da aplicação, contribuindo para a modernização visual da plataforma, melhoria da usabilidade e padronização da experiência de navegação em alinhamento com o Design System da empresa.
 ## Stack
 - [[Tech/react/index.md|React]]
-- [[typescript|Typescript]]
-- [[figma|Figma]]
+- [[Tech/typescript/index.md|Typescript]]
+- [[Tech/figma/index.md|Figma]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/react/index.md",
+                "file": "Projects/escallo/uikit/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech/react/index.md",
+                "file": "Projects/escallo/uikit/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tech/react/index.md"
+                "file": "Projects/escallo/uikit/index.md"
               },
               "icon": "lucide-info",
               "title": "File properties for index"
@@ -195,40 +195,40 @@
   },
   "active": "1d4a1829a43af85c",
   "lastOpenFiles": [
-    "Tech/pt-br/typescript.md",
-    "Tech/pt-br/nextjs.md",
-    "Tech/pt-br",
+    "Experiencies/escallo/index.md",
+    "Projects/escallo/uikit/index.md",
+    "Projects/escallo/site-institucional-futurotec/index.md",
+    "Projects/escallo/site-institucional-escallo/index.md",
+    "Projects/escallo/portal/index.md",
+    "Projects/escallo/go/index.md",
+    "Projects/escallo/bot-studio/index.md",
+    "Projects/escallo/blog-institucional-futurotec/index.md",
+    "Projects/escallo/blog-institucional-escallo/index.md",
     "Projects/escallo/bi/index.md",
-    "Projects/escallo/pt-br/bi.md",
-    "Tech/zustand",
-    "Tech/zod",
-    "Tech/wordpress",
-    "Tech/vercel",
-    "Tech/typescript",
-    "Tech/tailwindcss",
-    "Tech/styled-components",
-    "Tech/strapi",
-    "Tech/storybook",
-    "Tech/react/index.md.md",
-    "Tech/react/index.md",
-    "Experiencies/escallo/index.md.md",
+    "Projects/escallo/blog-institucional-futurotec/index.md.tmp.1079446.c4c94947d161",
+    "Projects/escallo/blog-institucional-escallo/index.md.tmp.1079446.89dbee80d16b",
+    "Projects/escallo/site-institucional-futurotec/index.md.tmp.1079446.ab702078a845",
+    "Projects/escallo/site-institucional-escallo/index.md.tmp.1079446.53e02d8c412a",
+    "Projects/escallo/go/index.md.tmp.1079446.743e13f52893",
+    "Projects/escallo/uikit/index.md.tmp.1079446.2d600e3e4abf",
+    "Projects/escallo/portal/index.md.tmp.1079446.190a50742759",
+    "Projects/escallo/bot-studio/index.md.tmp.1079446.96679e432aa3",
+    "Experiencies/escallo/index.md.tmp.1079446.0aeb3025fb7f",
+    "Projects/escallo/bi/index.md.tmp.1079446.4c743b1a53d2",
     "Templates/template-experience.md",
-    "Templates/template-project.md",
+    "Projects/escallo/pt-br/bi.md",
+    "Tech/core-web-vitals/index.md",
+    "Tech/css/index.md",
+    "Tech/claude-design/index.md",
+    "Tech/claude-code/index.md",
+    "javascript.md",
+    "Tech/git/index.md",
+    "Tech/wordpress/index.md",
+    "Tech/zod/index.md",
+    "Tech/zustand/index.md",
     "Templates/template-tech.md",
-    "1. portal.md",
-    "bi 1.md",
-    "Projects/escallo/pt-br/portal.md",
-    "Projects/escallo/pt-br/blog-institucional-escallo.md",
-    "Projects/escallo/pt-br/blog-institucional-futurotec.md",
-    "Projects/escallo/pt-br/uikit.md",
-    "Projects/escallo/pt-br/site-institucional-futurotec.md",
-    "Projects/escallo/pt-br/site-institucional-escallo.md",
-    "Projects/escallo/pt-br/go.md",
-    "Projects/escallo/pt-br/bot-studio.md",
-    "Tech/pt-br/claude-code.md",
-    "bi.md",
-    "Tech/pt-br/linux-cli.md",
-    "Tech/pt-br/lottie.md",
-    "Tech/pt-br/material-ui.md"
+    "Templates/template-project.md",
+    "Tech/rollup/index.md",
+    "Tech/vercel/index.md"
   ]
 }

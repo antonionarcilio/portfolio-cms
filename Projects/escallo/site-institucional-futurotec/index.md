@@ -1,7 +1,7 @@
 ---
 title: Site Institucional
 company:
-  - "[[template-experience|Futurotec]]"
+  - "[[Experiencies/escallo/index.md|Futurotec]]"
 start: 2024-03-01
 end: 2026-02-01
 order: "7"
@@ -14,9 +14,9 @@ Plataformas institucionais desenvolvidas com foco em performance, SEO técnico, 
 
 Atuei no desenvolvimento e manutenção do website institucional da Futurotec, participando desde a estruturação inicial do projeto até sua evolução contínua. Implementei funcionalidades customizadas, eventos de rastreamento e integrações voltadas ao monitoramento de interações estratégicas dos usuários, além de otimizações relacionadas à performance, responsividade, Core Web Vitals e experiência de navegação.
 ## Stack
-- [[wordpress|Wordpress]]
-- [[elementor-pro|Elementor PRO]]
-- [[rd-station|RD Station]]
-- [[google-analytics|Google Analytics]]
-- [[google-tag-manager|Google Tag Manager]]
-- [[php|PHP]]
+- [[Tech/wordpress/index.md|Wordpress]]
+- [[Tech/elementor-pro/index.md|Elementor PRO]]
+- [[Tech/rd-station/index.md|RD Station]]
+- [[Tech/google-analytics/index.md|Google Analytics]]
+- [[Tech/google-tag-manager/index.md|Google Tag Manager]]
+- [[Tech/php/index.md|PHP]]
