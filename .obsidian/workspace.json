@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/escallo/portal/index.en.md",
+                "file": "contacts/email.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.en"
+              "title": "email"
             }
           }
         ]
@@ -169,10 +169,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Projects/escallo/portal/index.en.md"
+                "file": "contacts/email.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for index.en"
+              "title": "File properties for email"
             }
           }
         ],
@@ -193,43 +193,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "1d4a1829a43af85c",
+  "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
-    "Experiencies/escallo/index.en.md",
-    "Experiencies/escallo/index.md",
-    "Projects/escallo/uikit/index.en.md",
-    "Projects/escallo/uikit/index.md",
-    "Projects/escallo/site-institucional-futurotec/index.en.md",
-    "Experiencies/escallo/index.en.md.tmp.1079446.96acee0cb04b",
-    "Projects/escallo/site-institucional-escallo/index.en.md",
-    "Projects/escallo/portal/index.en.md",
-    "Projects/escallo/go/index.en.md",
-    "Projects/escallo/bot-studio/index.en.md",
-    "Projects/escallo/blog-institucional-escallo/index.en.md",
-    "Projects/escallo/uikit/index.en.md.tmp.1079446.b6faa58c80a5",
-    "Projects/escallo/site-institucional-futurotec/index.en.md.tmp.1079446.fd94ff16592f",
-    "Projects/escallo/bi/index.en.md",
-    "Projects/escallo/site-institucional-escallo/index.en.md.tmp.1079446.8150655ed653",
-    "Projects/escallo/bi/index.md",
-    "Projects/escallo/portal/index.en.md.tmp.1079446.d59d332b2df1",
-    "Projects/escallo/go/index.en.md.tmp.1079446.4914b19b629e",
-    "Tech/javascript/index.en.md",
-    "Projects/escallo/bot-studio/index.en.md.tmp.1079446.0ff7566f2de8",
-    "Projects/escallo/blog-institucional-futurotec/index.en.md",
-    "Projects/escallo/blog-institucional-futurotec/index.en.md.tmp.1079446.2412d0f30190",
-    "Projects/escallo/blog-institucional-escallo/index.en.md.tmp.1079446.da5c611cc255",
-    "Tech/css-modules/index.en.md",
-    "Projects/escallo/bi/index.en.md.tmp.1079446.27be70f9ddc4",
-    "Tech/zustand/index.en.md",
-    "Tech/zod/index.en.md",
-    "Tech/wordpress/index.en.md",
-    "Tech/vercel/index.en.md",
-    "Tech/typescript/index.en.md",
-    "Tech/tailwindcss/index.en.md",
-    "Tech/styled-components/index.en.md",
-    "Tech/strapi/index.en.md",
-    "Tech/storybook/index.en.md",
-    "Tech/shell-script/index.en.md",
-    "Tech/shadcn/index.en.md"
+    "contacts/whatsapp.md",
+    "contacts/linkedin.md",
+    "contacts/github.md",
+    "project/escallo/bi/index.md",
+    "project/escallo/blog-institucional-futurotec/index.en.md",
+    "project/escallo/blog-institucional-futurotec/index.md",
+    "project/escallo/blog-institucional-escallo/index.md",
+    "project/escallo/blog-institucional-escallo/index.en.md",
+    "project/escallo/site-institucional-escallo/index.md",
+    "project/escallo/site-institucional-futurotec/index.md",
+    "project/escallo/site-institucional-futurotec/index.en.md",
+    "project/escallo/site-institucional-escallo/index.en.md",
+    "contacts/email.md",
+    "experience/escallo/index.en.md",
+    "experience/escallo/index.md",
+    "contacts/Untitled",
+    "contacts",
+    "achievements",
+    "Templates/template-tech.md",
+    "tech/zustand/index.md",
+    "tech/zustand/index.en.md",
+    "tech/zod/index.md",
+    "tech/zod/index.en.md",
+    "tech/wordpress/index.md",
+    "tech/wordpress/index.en.md",
+    "tech/vercel/index.md",
+    "tech/vercel/index.en.md",
+    "tech/typescript/index.md",
+    "tech/typescript/index.en.md",
+    "tech/zustand",
+    "tech/zod",
+    "tech/wordpress",
+    "tech/vercel",
+    "tech/typescript",
+    "tech/tailwindcss",
+    "tech/styled-components"
   ]
 }
