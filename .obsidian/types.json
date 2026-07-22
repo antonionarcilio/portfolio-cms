@@ -4,6 +4,8 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "expertise-area": "multitext",
-    "site": "text"
+    "site": "text",
+    "year": "number",
+    "techs": "multitext"
   }
 }
