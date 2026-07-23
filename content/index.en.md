@@ -12,9 +12,9 @@ highlight_text:
 experience_month: "53"
 experience_company: "[[content/experience/escallo/index.en|Escallo]]"
 contact:
-  - "[[linkedin|LinkedIn]]"
-  - "[[github|GitHub]]"
-  - "[[email|Email]]"
+  - "[[content/contacts/linkedin/index.en|LinkedIn]]"
+  - "[[content/contacts/github/index.en|GitHub]]"
+  - "[[content/contacts/email/index.en|Email]]"
 projects:
   - "[[content/project/escallo/portal/index.en|Portal]]"
   - "[[content/project/escallo/go/index.en|Go]]"
