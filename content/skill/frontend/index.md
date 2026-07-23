@@ -2,7 +2,7 @@
 aliases:
   - Frontend
 description: Construção de interfaces reativas, acessíveis e performáticas.
-icon: lucide-code-xml
+icon: code-xml
 technologies:
   - "[[content/technology/css/index|CSS]]"
   - "[[content/technology/css-modules/index|CSS Modules]]"

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "content/skill/devops/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://res.cloudinary.com/do39nkgr5/image/upload/v1784750199/career-silver-4xp_ijjihf.png",
+                "query": "frontend",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "content/index.md"
+                "file": "content/skill/devops/index.md"
               },
               "icon": "lucide-info",
               "title": "File properties for index"
@@ -193,10 +193,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "07eccdcc5cd8eac1",
+  "active": "1d4a1829a43af85c",
   "lastOpenFiles": [
-    "content/index.en.md",
+    "content/skill/devops/index.en.md",
+    "content/skill/devops/index.md",
+    "content/skill/frontend/index.en.md",
+    "content/skill/frontend/index.md",
     "content/index.md",
+    "content/index.en.md",
     "content/about/index.md",
     "content/contact/linkedin/index.en.md",
     "content/contact/linkedin/index.md",
@@ -204,7 +208,6 @@
     "content/contact/whatsapp/index.en.md",
     "content/project/escallo/portal/index.md",
     "content-types.d.ts",
-    "content/skill/frontend/index.md",
     "README.md",
     "scripts/install-hooks.sh",
     "scripts/pre-commit",
@@ -226,9 +229,6 @@
     "content/achievements/primeira-viagem-de-aviao/index.md",
     "content/achievements/primeira-viagem-de-aviao/index.en.md",
     "content/achievements/inicio-da-jornada-academica/index.md",
-    "content/achievements/inicio-da-jornada-academica/index.en.md",
-    "content/achievements/hello-world/index.md",
-    "content/achievements/hello-world/index.en.md",
     "content/achievements/superando-a-covid-19",
     "content/achievements/primeiro-notebook-gamer"
   ]
