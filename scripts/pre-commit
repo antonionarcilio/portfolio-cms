@@ -21,7 +21,10 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 "$PYTHON" "$SCRIPT_DIR/validate_content.py"
 
-# Stage generated TypeScript types (created by validate_content.py on success)
+# Generate TypeScript types from schema definitions
+"$PYTHON" "$SCRIPT_DIR/generate_types.py"
+
+# Stage generated types file for inclusion in the commit
 if [ -f "$REPO_ROOT/content-types.d.ts" ]; then
     git add "$REPO_ROOT/content-types.d.ts"
 fi

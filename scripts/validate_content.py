@@ -12,8 +12,6 @@ Validation rules (all checked against staged files only):
   8. Required fields (in types-schema) are not empty
   9. Wikilink targets correspond to existing tracked files
 
-After successful validation, generates content-types.d.ts.
-
 Exit code 0 = valid, 1 = invalid.
 """
 
@@ -34,7 +32,6 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "scripts" / "content-schema.yaml"
 TYPES_SCHEMA_PATH = REPO_ROOT / "scripts" / "types-schema.yaml"
-TYPES_TS_PATH = REPO_ROOT / "content-types.d.ts"
 
 FLAT_TYPES = {"about"}
 INDEX_RE = re.compile(r"^index(\.en)?\.md$")
@@ -43,17 +40,6 @@ WIKILINK_RE = re.compile(r"\[\[([^\]]+?)\]\]")
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 
 ARRAY_TYPES = {"multitext", "aliases", "tags", "cssclasses"}
-
-TS_TYPE_MAP = {
-    "text": "string",
-    "number": "number",
-    "date": "string",
-    "checkbox": "boolean",
-    "multitext": "string[]",
-    "aliases": "string[]",
-    "tags": "string[]",
-    "cssclasses": "string[]",
-}
 
 errors: list[str] = []
 
@@ -391,59 +377,6 @@ def validate_frontmatter(
 
 
 # ---------------------------------------------------------------------------
-# TypeScript generation
-# ---------------------------------------------------------------------------
-
-def generate_types_ts(schema: dict, types_schema: dict) -> None:
-    """Generate content-types.d.ts from schema definitions."""
-    types_defs = types_schema.get("content_types", {})
-    content_fields = schema.get("fields", {})
-
-    lines = [
-        "// Auto-generated from scripts/types-schema.yaml and "
-        "scripts/content-schema.yaml",
-        "// Do not edit manually. Changes are committed automatically "
-        "by the pre-commit hook.",
-        "",
-    ]
-
-    sorted_types = sorted(t for t in types_defs if t != "root")
-    if "root" in types_defs:
-        sorted_types.insert(0, "root")
-
-    for content_type in sorted_types:
-        fields = types_defs.get(content_type, {})
-        if not fields:
-            continue
-
-        required_keys = set(
-            content_fields.get(content_type, {}).get("required", [])
-        )
-        type_name = content_type.capitalize() + "Fields"
-
-        lines.append(f"export interface {type_name} {{")
-
-        for field_name, field_def in sorted(fields.items()):
-            ts_type = TS_TYPE_MAP.get(field_def["type"], "unknown")
-            is_required = (
-                field_def.get("required", True) or field_name in required_keys
-            )
-            optional = "" if is_required else "?"
-            comment = ""
-            if field_def["type"] == "date":
-                comment = "  // YYYY-MM-DD"
-            lines.append(
-                f"  {field_name}{optional}: {ts_type};{comment}"
-            )
-
-        lines.append("}")
-        lines.append("")
-
-    TYPES_TS_PATH.write_text("\n".join(lines), encoding="utf-8")
-    print(f"  ✔ Generated {TYPES_TS_PATH.relative_to(REPO_ROOT)}")
-
-
-# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -478,8 +411,6 @@ def main() -> int:
             file=sys.stderr,
         )
         return 1
-
-    generate_types_ts(schema, types_schema)
 
     print("✅ Content validation passed")
     return 0
