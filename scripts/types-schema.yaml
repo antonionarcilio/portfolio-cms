@@ -20,12 +20,12 @@ content_types:
     skills: { type: multitext, required: true }
     achievements: { type: multitext, required: true }
     cover: { type: text, required: false }
-    expertise_area: { type: multitext, required: false }
+    expertise_area: { type: multitext, required: true }
     company: { type: multitext, required: false }
-    location: { type: text, required: false }
+    location: { type: text, required: true }
     highlight_text: { type: multitext, required: false }
     experience_month: { type: number, required: false }
-    experience_company: { type: multitext, required: false }
+    experience_company: { type: multitext, required: true }
 
   about:
     aliases: { type: aliases, required: true }
@@ -36,7 +36,7 @@ content_types:
     aliases: { type: aliases, required: true }
     description: { type: text, required: true }
     year: { type: number, required: true }
-    cover: { type: text, required: false }
+    cover: { type: text, required: true }
 
   contact:
     aliases: { type: aliases, required: true }

@@ -8,13 +8,13 @@ export interface RootFields {
   contacts: string[];
   cover?: string;
   educations: string;
-  experience_company?: string[];
+  experience_company: string[];
   experience_month?: number;
-  expertise_area?: string[];
+  expertise_area: string[];
   first_name: string;
   highlight_text?: string[];
   last_name: string;
-  location?: string;
+  location: string;
   projects: string[];
   seniority: string;
   skills: string[];
@@ -28,7 +28,7 @@ export interface AboutFields {
 
 export interface AchievementFields {
   aliases: string[];
-  cover?: string;
+  cover: string;
   description: string;
   year: number;
 }
