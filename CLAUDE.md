@@ -27,6 +27,8 @@ All content lives under `content/`, one subfolder per content type. Each entry i
 - Every content entry also carries an `excerpt` (short summary) distinct from the full `description`.
 - Dates use ISO `YYYY-MM-DD`. An open-ended `end` date on current work should be left blank rather than guessed.
 - Icons reference Lucide icon names with a `lucide-` prefix (e.g. `lucide-mail`, `lucide-code-xml`).
+- **File and folder names use lowercase + kebab-case** (e.g. `content/project/some-company/some-project/`).
+- **Root directories inside `content/`** (e.g. `experience`, `project`, `skill`, `technology`, `education`, `seniority`, `achievements`, `contacts`) refer to entities/content types and should always be named in the **singular**.
 
 ## Obsidian setup
 
