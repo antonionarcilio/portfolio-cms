@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.en.md",
-                "mode": "preview",
+                "file": "content/contacts/email.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.en"
+              "title": "email"
             }
           }
         ]
@@ -169,10 +169,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "index.en.md"
+                "file": "content/contacts/email.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for index.en"
+              "title": "File properties for email"
             }
           }
         ],
@@ -193,42 +193,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "07eccdcc5cd8eac1",
+  "active": "1d4a1829a43af85c",
   "lastOpenFiles": [
-    "index.md",
+    "content/education/ads/index.md",
+    "content/experience/escallo/index.en.md",
+    "content/experience/escallo/index.md",
+    "content/project/escallo/blog-institucional-escallo/index.en.md",
+    "content/project/escallo/blog-institucional-escallo/index.md",
+    "content/skill/ai-assisted/index.en.md",
+    "content/skill/ai-assisted/index.md",
+    "content/technology/claude-code/index.md",
+    "content/index.en.md",
+    "content/index.md",
+    "content/about/index.en.md",
+    "content/about/index.md",
     "index.en.md",
-    "index.en.md.tmp.1147141.da852c8cb7ec",
-    "seniority/mid/index.en.md",
-    "seniority/senior/index.md",
-    "seniority/junior/index.en.md",
-    "project/escallo/bi/index.en.md",
-    "project/escallo/bi/index.md",
-    "technology/claude-code/index.en.md",
-    "technology/claude-code/index.md",
-    "skill/ai-assisted/index.md",
-    "seniority/junior/index.md",
-    "project/escallo/blog-institucional-escallo/index.en.md",
-    "project/escallo/blog-institucional-escallo/index.md",
-    "experience/escallo/index.md",
-    "experience/escallo/index.en.md",
-    "experience/escallo/index.en.md.tmp.1147141.bd34ba9735f8",
-    "experience/escallo/index.md.tmp.1147141.7998a0e2de63",
-    "education/ads/index.md",
-    "education/ads/index.en.md",
-    "contacts/whatsapp.md",
-    "contacts/linkedin.md",
-    "contacts/github.md",
-    "contacts/email.md",
-    "achievements/2-anos-de-experiencia/index.md",
-    "achievements/2-anos-de-experiencia/index.en.md",
-    "index.en.md.tmp.1147141.817654afaf81",
-    "about/index.md",
-    "about/index.en.md",
-    "about/index.en.md.tmp.1147141.36a8a14019a9",
-    "about/index.md.tmp.1147141.fab129a31647",
-    "project/escallo/blog-institucional-futurotec/XXzbbN0H",
-    "skill/webops/index.en.md.tmp.1147141.1b746f19de02",
-    "skill/webops/index.md.tmp.1147141.af32ca214be4",
-    "skill/teste-e-automacao/index.en.md.tmp.1147141.c29131635b62"
+    "content/project/escallo/bot-studio/XX5qI9PC",
+    "content/technology/hetzner/XXNEtB5q",
+    "content/technology/jest/XXAe0q2e",
+    "content/technology/zustand/index.md",
+    "content/technology/zustand/index.en.md",
+    "content/technology/zod/index.md",
+    "content/technology/zod/index.en.md",
+    "content/technology/wordpress/index.md",
+    "content/technology/wordpress/index.en.md",
+    "content/technology/vercel/index.md",
+    "content/technology/vercel/index.en.md",
+    "content/technology/typescript/index.md",
+    "content/technology/typescript/index.en.md",
+    "content/technology/tailwindcss/index.md",
+    "content/technology/tailwindcss/index.en.md",
+    "content/technology/styled-components/index.md",
+    "content/technology/zustand",
+    "content/technology/zod",
+    "content/technology/wordpress",
+    "content/technology/vercel",
+    "content/technology/typescript",
+    "content/technology/tailwindcss",
+    "content/technology/styled-components"
   ]
 }
