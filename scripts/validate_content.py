@@ -7,12 +7,14 @@ Validation rules (all checked against staged files only):
   3. Only index.md / index.en.md inside entry folders
   4. Every index.md has a counterpart index.en.md (and vice versa)
   5. YAML frontmatter is valid and required fields are present
-  6. Wikilink targets correspond to existing tracked files
+  6. Field types match types-schema.yaml
+  7. No unknown fields (not in types-schema.yaml)
+  8. Required fields (in types-schema) are not empty
+  9. Wikilink targets correspond to existing tracked files
 
 Exit code 0 = valid, 1 = invalid.
 """
 
-import os
 import re
 import subprocess
 import sys
@@ -29,11 +31,15 @@ except ImportError:
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "scripts" / "content-schema.yaml"
+TYPES_SCHEMA_PATH = REPO_ROOT / "scripts" / "types-schema.yaml"
 
 FLAT_TYPES = {"about"}
 INDEX_RE = re.compile(r"^index(\.en)?\.md$")
 KEBAB_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 WIKILINK_RE = re.compile(r"\[\[([^\]]+?)\]\]")
+DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
+
+ARRAY_TYPES = {"multitext", "aliases", "tags", "cssclasses"}
 
 errors: list[str] = []
 
@@ -42,8 +48,8 @@ errors: list[str] = []
 # Helpers
 # ---------------------------------------------------------------------------
 
-def load_schema() -> dict:
-    with open(SCHEMA_PATH) as f:
+def load_yaml(path: Path) -> dict:
+    with open(path) as f:
         return yaml.safe_load(f)
 
 
@@ -75,7 +81,8 @@ def get_all_content_files() -> set[str]:
 
 
 def classify_path(rel_path: str):
-    """Return (content_type, entry_key, locale) or None if path is not a content entry.
+    """Return (content_type, entry_key, locale) or None if path is not a content
+    entry.
 
     entry_key is:
       - None for root entries
@@ -88,7 +95,6 @@ def classify_path(rel_path: str):
     if not rel_path.startswith("content/"):
         return None
 
-    # Root index files
     if n == 2 and parts[0] == "content" and INDEX_RE.match(parts[-1]):
         return ("root", None, "en" if ".en." in parts[-1] else "pt")
 
@@ -101,17 +107,14 @@ def classify_path(rel_path: str):
     if not INDEX_RE.match(parts[-1]):
         return None
 
-    # Flat type: content/<type>/index.md (e.g. content/about/index.md)
     if n == 3 and content_type in FLAT_TYPES:
         return (content_type, content_type, locale)
 
-    # Project: content/project/<company>/<project>/index.md
     if content_type == "project":
         if n < 5:
             return None
         return ("project", (parts[2], parts[3]), locale)
 
-    # Other entry types: content/<type>/<entry>/index.md
     if n < 4:
         return None
     return (content_type, parts[2], locale)
@@ -123,6 +126,46 @@ def resolve_wikilink_target(target: str) -> str:
     if not target.endswith(".md"):
         target += ".md"
     return target
+
+
+def _extract_wikilinks(value):
+    """Recursively extract wikilink targets from a frontmatter value."""
+    links = []
+    if isinstance(value, str):
+        links.extend(WIKILINK_RE.findall(value))
+    elif isinstance(value, list):
+        for item in value:
+            links.extend(_extract_wikilinks(item))
+    elif isinstance(value, dict):
+        for item in value.values():
+            links.extend(_extract_wikilinks(item))
+    return links
+
+
+def check_field_type(value, expected_type: str) -> bool:
+    """Check if a frontmatter value matches the expected Obsidian type."""
+    if expected_type == "text":
+        return isinstance(value, str)
+    elif expected_type == "number":
+        return isinstance(value, (int, float))
+    elif expected_type == "date":
+        return isinstance(value, str) and bool(DATE_RE.match(value))
+    elif expected_type == "checkbox":
+        return isinstance(value, bool)
+    elif expected_type in ARRAY_TYPES:
+        return isinstance(value, (list, str))
+    return True
+
+
+def is_empty_value(value) -> bool:
+    """Check if a value is considered empty."""
+    if value is None:
+        return True
+    if isinstance(value, str) and len(value.strip()) == 0:
+        return True
+    if isinstance(value, list) and len(value) == 0:
+        return True
+    return False
 
 
 # ---------------------------------------------------------------------------
@@ -138,7 +181,6 @@ def validate_structure(rel_path: str, schema: dict) -> None:
     if parts[0] != "content":
         return
 
-    # Root level
     if n == 2:
         if INDEX_RE.match(parts[-1]):
             return
@@ -160,7 +202,6 @@ def validate_structure(rel_path: str, schema: dict) -> None:
 
     filename = parts[-1]
 
-    # Flat type (e.g. about)
     if content_type in FLAT_TYPES:
         if n == 3 and INDEX_RE.match(filename):
             return
@@ -170,14 +211,12 @@ def validate_structure(rel_path: str, schema: dict) -> None:
         )
         return
 
-    # Entry types require content/<type>/<entry>/...
     if n < 4:
         errors.append(
             f"{rel_path}: unexpected file at content/{content_type}/ level"
         )
         return
 
-    # Project nested structure
     if content_type == "project":
         if n < 5:
             errors.append(
@@ -204,7 +243,6 @@ def validate_structure(rel_path: str, schema: dict) -> None:
                 f"lowercase kebab-case"
             )
 
-    # Only index.md / index.en.md inside entry folders
     if not INDEX_RE.match(filename):
         errors.append(
             f"{rel_path}: only index.md and index.en.md are allowed "
@@ -219,16 +257,17 @@ def validate_bilingual(rel_path: str, staged: set[str]) -> None:
         return
 
     parts = p.parts
-    # Root index
     if len(parts) == 2 and parts[0] == "content":
-        counterpart = str(p.parent / ("index.md" if p.name == "index.en.md" else "index.en.md"))
+        counterpart = str(
+            p.parent / ("index.md" if p.name == "index.en.md" else "index.en.md")
+        )
         if counterpart not in staged and not (REPO_ROOT / counterpart).exists():
-            errors.append(
-                f"{rel_path}: missing counterpart '{counterpart}'"
-            )
+            errors.append(f"{rel_path}: missing counterpart '{counterpart}'")
         return
 
-    counterpart = str(p.parent / ("index.md" if p.name == "index.en.md" else "index.en.md"))
+    counterpart = str(
+        p.parent / ("index.md" if p.name == "index.en.md" else "index.en.md")
+    )
     if counterpart not in staged and not (REPO_ROOT / counterpart).exists():
         errors.append(
             f"{rel_path}: missing counterpart '{counterpart}'. "
@@ -236,8 +275,11 @@ def validate_bilingual(rel_path: str, staged: set[str]) -> None:
         )
 
 
-def validate_frontmatter(rel_path: str, schema: dict, all_files: set[str]) -> None:
-    """Rule 5-6: parse YAML, check required fields, validate wikilinks."""
+def validate_frontmatter(
+    rel_path: str, schema: dict, types_schema: dict, all_files: set[str]
+) -> None:
+    """Rule 5-9: parse YAML, check required fields, validate types, validate
+    wikilinks."""
     cls = classify_path(rel_path)
     if cls is None:
         return
@@ -246,17 +288,21 @@ def validate_frontmatter(rel_path: str, schema: dict, all_files: set[str]) -> No
     file_path = REPO_ROOT / rel_path
 
     if not file_path.is_file():
-        return  # Deleted or not present on disk – nothing to parse
+        return
 
     raw = file_path.read_text(encoding="utf-8")
 
     if not raw.startswith("---"):
-        errors.append(f"{rel_path}: missing YAML frontmatter (must start with '---')")
+        errors.append(
+            f"{rel_path}: missing YAML frontmatter (must start with '---')"
+        )
         return
 
     end = raw.find("---", 3)
     if end == -1:
-        errors.append(f"{rel_path}: YAML frontmatter has no closing '---'")
+        errors.append(
+            f"{rel_path}: YAML frontmatter has no closing '---'"
+        )
         return
 
     yaml_text = raw[3:end].strip()
@@ -267,25 +313,57 @@ def validate_frontmatter(rel_path: str, schema: dict, all_files: set[str]) -> No
         return
 
     if not isinstance(fm, dict):
-        errors.append(f"{rel_path}: frontmatter must be a key-value mapping")
+        errors.append(
+            f"{rel_path}: frontmatter must be a key-value mapping"
+        )
         return
 
-    # Required fields (exact name match required — no aliases)
+    # Rule 5: Required fields from content-schema.yaml (key must exist)
     required = schema.get("fields", {}).get(content_type, {}).get("required", [])
     for field in required:
-        val = fm.get(field)
-        if val is None:
+        if field not in fm:
             errors.append(
                 f"{rel_path}: missing required field '{field}' "
                 f"for content type '{content_type}'"
             )
-        elif isinstance(val, (list, str)) and len(str(val).strip()) == 0:
+
+    # Rule 6-8: Type validation from types-schema.yaml
+    type_defs = types_schema.get("content_types", {}).get(content_type, {})
+    if not type_defs:
+        errors.append(
+            f"{rel_path}: content type '{content_type}' has no definition "
+            f"in scripts/types-schema.yaml"
+        )
+        return
+
+    for field_name, field_value in fm.items():
+        if field_name not in type_defs:
             errors.append(
-                f"{rel_path}: field '{field}' is required but empty "
-                f"for content type '{content_type}'"
+                f"{rel_path}: unknown field '{field_name}' for content "
+                f"type '{content_type}' (not in scripts/types-schema.yaml)"
+            )
+            continue
+
+        field_def = type_defs[field_name]
+        expected_type = field_def["type"]
+        field_required = field_def.get("required", True)
+
+        if field_value is not None and not check_field_type(
+            field_value, expected_type
+        ):
+            actual = type(field_value).__name__
+            errors.append(
+                f"{rel_path}: field '{field_name}' expected type "
+                f"'{expected_type}' but got '{actual}'"
             )
 
-    # Wikilink validation
+        if field_required and is_empty_value(field_value):
+            errors.append(
+                f"{rel_path}: field '{field_name}' is required and "
+                f"must not be empty"
+            )
+
+    # Rule 9: Wikilink validation
     for field_name, field_value in fm.items():
         links = _extract_wikilinks(field_value)
         for target in links:
@@ -298,26 +376,13 @@ def validate_frontmatter(rel_path: str, schema: dict, all_files: set[str]) -> No
                 )
 
 
-def _extract_wikilinks(value):
-    """Recursively extract wikilink targets from a frontmatter value."""
-    links = []
-    if isinstance(value, str):
-        links.extend(WIKILINK_RE.findall(value))
-    elif isinstance(value, list):
-        for item in value:
-            links.extend(_extract_wikilinks(item))
-    elif isinstance(value, dict):
-        for item in value.values():
-            links.extend(_extract_wikilinks(item))
-    return links
-
-
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main() -> int:
-    schema = load_schema()
+    schema = load_yaml(SCHEMA_PATH)
+    types_schema = load_yaml(TYPES_SCHEMA_PATH)
     staged = get_staged_files()
     all_files = get_all_content_files()
 
@@ -327,7 +392,7 @@ def main() -> int:
         validate_structure(rel_path, schema)
         validate_bilingual(rel_path, content_staged)
         if rel_path.endswith(".md"):
-            validate_frontmatter(rel_path, schema, all_files)
+            validate_frontmatter(rel_path, schema, types_schema, all_files)
 
     if errors:
         print(
@@ -338,11 +403,11 @@ def main() -> int:
             print(f"  • {err}", file=sys.stderr)
         print(
             "\n"
-            "📖 If you are intentionally changing the schema (new fields, "
-            "new content types,\n"
+            "📖 If you are intentionally changing the schema "
+            "(new fields, new content types,\n"
             "   removing fields), edit scripts/content-schema.yaml and "
-            "commit it together\n"
-            "   with your content changes.\n",
+            "scripts/types-schema.yaml\n"
+            "   and commit them together with your content changes.\n",
             file=sys.stderr,
         )
         return 1

@@ -28,6 +28,9 @@ fields:
       - educations
       - skills
       - achievements
+      - expertise_area
+      - location
+      - experience_company
 
   about:
     required:
@@ -40,6 +43,7 @@ fields:
       - aliases
       - description
       - year
+      - cover
 
   contact:
     required:
@@ -85,7 +89,7 @@ fields:
       - aliases
       - description
       - icon
-      - techs
+      - technologies
 
   technology:
     required:

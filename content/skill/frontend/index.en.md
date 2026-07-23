@@ -3,7 +3,7 @@ aliases:
   - Frontend
 description: Building reactive, accessible, and performant interfaces.
 icon: lucide-code-xml
-techs:
+technologies:
   - "[[content/technology/css/index.en.md|CSS]]"
   - "[[content/technology/css-modules/index.en.md|CSS Modules]]"
   - "[[content/technology/html/index.en.md|HTML]]"

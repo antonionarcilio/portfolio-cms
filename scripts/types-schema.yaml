@@ -1,0 +1,88 @@
+# Schema de tipos dos campos do frontmatter.
+# Serve como contrato com o frontend: qualquer alteração aqui deve ser
+# refletida no frontend também.
+#
+# Tipos válidos (baseados no Obsidian):
+#   text, number, date, checkbox, multitext, aliases, tags, cssclasses
+#
+# required: true  → campo não pode estar vazio (string vazia, lista vazia)
+# required: false → campo pode estar vazio ou ausente
+
+content_types:
+  root:
+    first_name: { type: text, required: true }
+    last_name: { type: text, required: true }
+    bio: { type: text, required: true }
+    seniority: { type: text, required: true }
+    contacts: { type: multitext, required: true }
+    projects: { type: multitext, required: true }
+    educations: { type: text, required: true }
+    skills: { type: multitext, required: true }
+    achievements: { type: multitext, required: true }
+    cover: { type: text, required: false }
+    expertise_area: { type: multitext, required: true }
+    company: { type: multitext, required: false }
+    location: { type: text, required: true }
+    highlight_text: { type: multitext, required: false }
+    experience_month: { type: number, required: false }
+    experience_company: { type: multitext, required: true }
+
+  about:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
+    excerpt: { type: text, required: true }
+
+  achievement:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
+    year: { type: number, required: true }
+    cover: { type: text, required: true }
+
+  contact:
+    aliases: { type: aliases, required: true }
+    label: { type: text, required: true }
+    tooltip: { type: text, required: true }
+    url: { type: text, required: true }
+    icon: { type: text, required: true }
+
+  education:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
+    degree_type: { type: text, required: true }
+    institution: { type: text, required: true }
+    year: { type: number, required: true }
+
+  experience:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
+    excerpt: { type: text, required: true }
+    start: { type: date, required: true }
+    expertise_area: { type: text, required: true }
+    employment_type: { type: text, required: true }
+    stacks: { type: multitext, required: true }
+    site: { type: text, required: false }
+    end: { type: date, required: false }
+
+  project:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
+    excerpt: { type: text, required: true }
+    company: { type: multitext, required: true }
+    start: { type: date, required: true }
+    stack: { type: multitext, required: true }
+    url: { type: text, required: false }
+    end: { type: date, required: false }
+    cover: { type: text, required: false }
+
+  seniority:
+    aliases: { type: aliases, required: true }
+
+  skill:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
+    icon: { type: text, required: true }
+    technologies: { type: multitext, required: true }
+
+  technology:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
