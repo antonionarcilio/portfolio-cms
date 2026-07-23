@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/skill/devops/index.md",
+                "file": "content/project/escallo/bi/index.en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "index.en"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "frontend",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,10 +169,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "content/skill/devops/index.md"
+                "file": "content/project/escallo/bi/index.en.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for index"
+              "title": "File properties for index.en"
             }
           }
         ],
@@ -190,45 +190,46 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "1d4a1829a43af85c",
+  "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
-    "content/skill/devops/index.en.md",
-    "content/skill/devops/index.md",
-    "content/skill/frontend/index.en.md",
-    "content/skill/frontend/index.md",
+    "content/project/escallo/bi/index.md",
+    "content/project/escallo/blog-institucional-escallo/index.en.md",
+    "content/project/escallo/blog-institucional-escallo/index.md",
+    "content/project/escallo/blog-institucional-futurotec/index.en.md",
+    "content/project/escallo/blog-institucional-futurotec/index.md",
+    "content/project/escallo/bot-studio/index.en.md",
+    "content/project/escallo/bot-studio/index.md",
+    "content/project/escallo/go/index.en.md",
+    "content/project/escallo/go/index.md",
+    "content/project/escallo/portal/index.en.md",
+    "content/project/escallo/portal/index.md",
+    "content/project/escallo/site-institucional-escallo/index.en.md",
+    "content/project/escallo/site-institucional-escallo/index.md",
+    "content/project/escallo/site-institucional-futurotec/index.md",
+    "content/project/escallo/site-institucional-futurotec/index.en.md",
+    "content/project/escallo/uikit/index.md",
+    "content/project/escallo/uikit/index.en.md",
+    "content/project/escallo/bi/index.en.md",
+    "2024-03-01.md",
+    "content/technology/typescript/index.md",
+    "content/technology/typescript/index.en.md",
+    "content/experience/escallo/index.md",
     "content/index.md",
     "content/index.en.md",
-    "content/about/index.md",
-    "content/contact/linkedin/index.en.md",
-    "content/contact/linkedin/index.md",
-    "content/contact/whatsapp/index.md",
-    "content/contact/whatsapp/index.en.md",
-    "content/project/escallo/portal/index.md",
+    "content/skill/devops/index.md",
+    "content/skill/devops/index.en.md",
     "content-types.d.ts",
-    "README.md",
     "scripts/install-hooks.sh",
     "scripts/pre-commit",
     "scripts/validate_content.py",
     "scripts/content-schema.yaml",
     "scripts",
-    "AGENTS.md",
-    "content/experience/escallo/index.en.md",
     "content/index.en.md.tmp.139137.ca75c69ff61b",
     "content/index.md.tmp.139137.74c0c7f6ae73",
-    "content/achievements/2-anos-de-experiencia/index.md",
-    "content/achievements/2-anos-de-experiencia/index.en.md",
-    "content/achievements/superando-a-covid-19/index.md",
-    "content/achievements/superando-a-covid-19/index.en.md",
-    "content/achievements/primeiro-notebook-gamer/index.md",
-    "content/achievements/primeiro-notebook-gamer/index.en.md",
-    "content/achievements/primeiro-emprego-na-area/index.md",
-    "content/achievements/primeiro-emprego-na-area/index.en.md",
-    "content/achievements/primeira-viagem-de-aviao/index.md",
-    "content/achievements/primeira-viagem-de-aviao/index.en.md",
-    "content/achievements/inicio-da-jornada-academica/index.md",
     "content/achievements/superando-a-covid-19",
     "content/achievements/primeiro-notebook-gamer"
   ]
