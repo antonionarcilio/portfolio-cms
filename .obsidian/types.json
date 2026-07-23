@@ -29,6 +29,7 @@
     "experience_company": "multitext",
     "project": "multitext",
     "skills": "multitext",
-    "stack": "multitext"
+    "stack": "multitext",
+    "achievements": "multitext"
   }
 }
