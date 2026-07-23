@@ -27,10 +27,10 @@ TS_TYPE_MAP = {
     "number": "number",
     "date": "string",
     "checkbox": "boolean",
-    "multitext": "string[]",
-    "aliases": "string[]",
-    "tags": "string[]",
-    "cssclasses": "string[]",
+    "multitext": "string | string[]",
+    "aliases": "string | string[]",
+    "tags": "string | string[]",
+    "cssclasses": "string | string[]",
 }
 
 

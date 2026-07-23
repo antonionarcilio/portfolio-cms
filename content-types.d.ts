@@ -2,39 +2,39 @@
 // Do not edit manually. Changes are committed automatically by the pre-commit hook.
 
 export interface RootFields {
-  achievements: string[];
+  achievements: string | string[];
   bio: string;
   company?: string;
-  contacts: string[];
+  contacts: string | string[];
   cover?: string;
   educations: string;
-  experience_company: string[];
+  experience_company: string | string[];
   experience_month?: number;
   expertise_area: string;
   first_name: string;
-  highlight_text?: string[];
+  highlight_text?: string | string[];
   last_name: string;
   location: string;
-  projects: string[];
+  projects: string | string[];
   seniority: string;
-  skills: string[];
+  skills: string | string[];
 }
 
 export interface AboutFields {
-  aliases: string[];
+  aliases: string | string[];
   description: string;
   excerpt: string;
 }
 
 export interface AchievementFields {
-  aliases: string[];
+  aliases: string | string[];
   cover: string;
   description: string;
   year: number;
 }
 
 export interface ContactFields {
-  aliases: string[];
+  aliases: string | string[];
   icon: string;
   label: string;
   tooltip: string;
@@ -42,7 +42,7 @@ export interface ContactFields {
 }
 
 export interface EducationFields {
-  aliases: string[];
+  aliases: string | string[];
   degree_type: string;
   description: string;
   institution: string;
@@ -50,41 +50,41 @@ export interface EducationFields {
 }
 
 export interface ExperienceFields {
-  aliases: string[];
+  aliases: string | string[];
   description: string;
   employment_type: string;
   end?: string;  // YYYY-MM-DD
   excerpt: string;
   expertise_area: string;
   site?: string;
-  stacks: string[];
+  stacks: string | string[];
   start: string;  // YYYY-MM-DD
 }
 
 export interface ProjectFields {
-  aliases: string[];
-  company: string[];
+  aliases: string | string[];
+  company: string | string[];
   cover?: string;
   description: string;
   end?: string;  // YYYY-MM-DD
   excerpt: string;
-  stack: string[];
+  stack: string | string[];
   start: string;  // YYYY-MM-DD
   url?: string;
 }
 
 export interface SeniorityFields {
-  aliases: string[];
+  aliases: string | string[];
 }
 
 export interface SkillFields {
-  aliases: string[];
+  aliases: string | string[];
   description: string;
   icon: string;
-  technologies: string[];
+  technologies: string | string[];
 }
 
 export interface TechnologyFields {
-  aliases: string[];
+  aliases: string | string[];
   description: string;
 }
