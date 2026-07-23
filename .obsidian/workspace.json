@@ -195,10 +195,16 @@
   },
   "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
-    "content/project/escallo/portal/index.md",
-    "content/index.md",
-    "content/experience/escallo/index.en.md",
     "content/index.en.md",
+    "content/index.md",
+    "scripts/install-hooks.sh",
+    "scripts/pre-commit",
+    "scripts/validate_content.py",
+    "scripts/content-schema.yaml",
+    "scripts",
+    "AGENTS.md",
+    "content/project/escallo/portal/index.md",
+    "content/experience/escallo/index.en.md",
     "content/index.en.md.tmp.139137.ca75c69ff61b",
     "content/index.md.tmp.139137.74c0c7f6ae73",
     "content/achievements/2-anos-de-experiencia/index.md",
@@ -222,14 +228,7 @@
     "content/achievements/superando-a-covid-19",
     "content/achievements/primeiro-notebook-gamer",
     "content/achievements/primeiro-emprego-na-area",
-    "content/achievements/primeira-viagem-de-aviao",
-    "content/achievements/inicio-da-jornada-academica",
-    "content/achievements/hello-world",
-    "content/achievements/conclusao-da-graduacao",
-    "content/achievements/4-anos-de-experiencia",
     "content/contact/whatsapp/index.md",
-    "content/contact/whatsapp/index.en.md",
-    "content/contact/linkedin/index.md",
-    "content/contact/linkedin/index.en.md"
+    "content/contact/whatsapp/index.en.md"
   ]
 }
