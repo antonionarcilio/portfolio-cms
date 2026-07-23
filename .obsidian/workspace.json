@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.en.md",
-                "mode": "preview",
+                "file": "content/index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.en"
+              "title": "index"
             }
           }
         ]
@@ -169,10 +169,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "content/index.en.md"
+                "file": "content/index.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for index.en"
+              "title": "File properties for index"
             }
           }
         ],
@@ -193,43 +193,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "1d4a1829a43af85c",
+  "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
+    "content/project/escallo/portal/index.md",
+    "content/index.md",
+    "content/experience/escallo/index.en.md",
+    "content/index.en.md",
+    "content/index.en.md.tmp.139137.ca75c69ff61b",
+    "content/index.md.tmp.139137.74c0c7f6ae73",
+    "content/achievements/2-anos-de-experiencia/index.md",
+    "content/achievements/2-anos-de-experiencia/index.en.md",
+    "content/achievements/superando-a-covid-19/index.md",
+    "content/achievements/superando-a-covid-19/index.en.md",
+    "content/achievements/primeiro-notebook-gamer/index.md",
+    "content/achievements/primeiro-notebook-gamer/index.en.md",
+    "content/achievements/primeiro-emprego-na-area/index.md",
+    "content/achievements/primeiro-emprego-na-area/index.en.md",
+    "content/achievements/primeira-viagem-de-aviao/index.md",
+    "content/achievements/primeira-viagem-de-aviao/index.en.md",
+    "content/achievements/inicio-da-jornada-academica/index.md",
+    "content/achievements/inicio-da-jornada-academica/index.en.md",
+    "content/achievements/hello-world/index.md",
+    "content/achievements/hello-world/index.en.md",
+    "content/achievements/conclusao-da-graduacao/index.md",
+    "content/achievements/conclusao-da-graduacao/index.en.md",
+    "content/achievements/4-anos-de-experiencia/index.md",
+    "content/achievements/4-anos-de-experiencia/index.en.md",
+    "content/achievements/superando-a-covid-19",
+    "content/achievements/primeiro-notebook-gamer",
+    "content/achievements/primeiro-emprego-na-area",
+    "content/achievements/primeira-viagem-de-aviao",
+    "content/achievements/inicio-da-jornada-academica",
+    "content/achievements/hello-world",
+    "content/achievements/conclusao-da-graduacao",
+    "content/achievements/4-anos-de-experiencia",
     "content/contact/whatsapp/index.md",
     "content/contact/whatsapp/index.en.md",
     "content/contact/linkedin/index.md",
-    "content/contact/linkedin/index.en.md",
-    "content/contact/github/index.md",
-    "content/contact/github/index.en.md",
-    "content/contact/email/index.md",
-    "content/contact/email/index.en.md",
-    "content/contact/whatsapp",
-    "content/contact/linkedin",
-    "content/contact/github",
-    "content/contact/email",
-    "content/contact",
-    "content/achievement/superando-a-covid-19/index.md",
-    "content/achievement/superando-a-covid-19/index.en.md",
-    "content/achievement/primeiro-notebook-gamer/index.md",
-    "content/achievement/primeiro-notebook-gamer/index.en.md",
-    "content/achievement/primeiro-emprego-na-area/index.md",
-    "content/achievement/primeiro-emprego-na-area/index.en.md",
-    "content/achievement/primeira-viagem-de-aviao/index.md",
-    "content/achievement/primeira-viagem-de-aviao/index.en.md",
-    "content/achievement/inicio-da-jornada-academica/index.md",
-    "content/achievement/inicio-da-jornada-academica/index.en.md",
-    "content/achievement/hello-world/index.md",
-    "content/achievement/hello-world/index.en.md",
-    "content/achievement/conclusao-da-graduacao/index.md",
-    "content/achievement/conclusao-da-graduacao/index.en.md",
-    "content/achievement/4-anos-de-experiencia/index.md",
-    "content/achievement/4-anos-de-experiencia/index.en.md",
-    "content/achievement/2-anos-de-experiencia/index.md",
-    "content/achievement/2-anos-de-experiencia/index.en.md",
-    "content/achievement/superando-a-covid-19",
-    "content/achievement/primeiro-notebook-gamer",
-    "content/achievement/primeiro-emprego-na-area",
-    "content/achievement/primeira-viagem-de-aviao",
-    "content/achievement/inicio-da-jornada-academica"
+    "content/contact/linkedin/index.en.md"
   ]
 }
