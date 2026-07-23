@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/project/escallo/portal/index.md",
-                "mode": "source",
-                "source": false
+                "file": "content/project/escallo/uikit/index.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "index"
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "content/project/escallo/portal/index.md"
+                "file": "content/project/escallo/uikit/index.md"
               },
               "icon": "lucide-info",
               "title": "File properties for index"
@@ -197,9 +197,9 @@
   "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
     "content/experience/escallo/index.md",
-    "content/experience/escallo/index.en.md",
-    "content/project/escallo/portal/index.md",
     "content/project/escallo/portal/index.en.md",
+    "content/project/escallo/portal/index.md",
+    "content/experience/escallo/index.en.md",
     "content/project/escallo/bi/index.en.md",
     "content/project/escallo/bi/index.md",
     "content/project/escallo/blog-institucional-escallo/index.en.md",
