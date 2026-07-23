@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/experience/escallo/index.md",
+                "file": "content/project/escallo/portal/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "content/experience/escallo/index.md"
+                "file": "content/project/escallo/portal/index.md"
               },
               "icon": "lucide-info",
               "title": "File properties for index"
@@ -196,8 +196,8 @@
   },
   "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
-    "content/experience/escallo/index.en.md",
     "content/experience/escallo/index.md",
+    "content/experience/escallo/index.en.md",
     "content/project/escallo/portal/index.md",
     "content/project/escallo/portal/index.en.md",
     "content/project/escallo/bi/index.en.md",
