@@ -34,4 +34,14 @@ skills:
   - "[[content/skill/devops/index.en|DevOps & Infra]]"
   - "[[content/skill/ai-assisted/index.en|AI-Assisted]]"
   - "[[content/skill/teste-e-automacao/index.en|Testing & Automation]]"
+achievements:
+  - "[[content/achievements/inicio-da-jornada-academica/index.en|Start of the academic journey]]"
+  - "[[content/achievements/hello-world/index.en|Hello world]]"
+  - "[[content/achievements/conclusao-da-graduacao/index.en|Graduation completion]]"
+  - "[[content/achievements/superando-a-covid-19/index.en|Overcoming COVID-19]]"
+  - "[[content/achievements/primeiro-emprego-na-area/index.en|First job in the field]]"
+  - "[[content/achievements/primeira-viagem-de-aviao/index.en|First airplane trip]]"
+  - "[[content/achievements/2-anos-de-experiencia/index.en|2 years of experience]]"
+  - "[[content/achievements/primeiro-notebook-gamer/index.en|First gaming laptop]]"
+  - "[[content/achievements/4-anos-de-experiencia/index.en|4 years of experience]]"
 ---
