@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/experience/escallo/index.en.md",
+                "file": "content/experience/escallo/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "index.en"
+              "title": "index"
             }
           }
         ]
@@ -169,10 +169,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "content/experience/escallo/index.en.md"
+                "file": "content/experience/escallo/index.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for index.en"
+              "title": "File properties for index"
             }
           }
         ],
@@ -196,6 +196,7 @@
   },
   "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
+    "content/experience/escallo/index.en.md",
     "content/experience/escallo/index.md",
     "content/project/escallo/portal/index.md",
     "content/project/escallo/portal/index.en.md",
@@ -221,7 +222,6 @@
     "content/index.md",
     "content/index.en.md",
     "content/skill/devops/index.md",
-    "content/skill/devops/index.en.md",
     "content-types.d.ts",
     "scripts/install-hooks.sh",
     "scripts/pre-commit",
