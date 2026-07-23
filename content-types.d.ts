@@ -4,13 +4,13 @@
 export interface RootFields {
   achievements: string[];
   bio: string;
-  company?: string[];
+  company?: string;
   contacts: string[];
   cover?: string;
   educations: string;
   experience_company: string[];
   experience_month?: number;
-  expertise_area: string[];
+  expertise_area: string;
   first_name: string;
   highlight_text?: string[];
   last_name: string;
