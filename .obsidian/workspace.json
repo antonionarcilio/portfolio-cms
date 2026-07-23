@@ -195,9 +195,11 @@
   },
   "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
-    "README.md",
-    "content/index.en.md",
+    "content/skill/frontend/index.md",
     "content/index.md",
+    "content/index.en.md",
+    "content/about/index.md",
+    "README.md",
     "scripts/install-hooks.sh",
     "scripts/pre-commit",
     "scripts/validate_content.py",
@@ -228,8 +230,6 @@
     "content/achievements/4-anos-de-experiencia/index.en.md",
     "content/achievements/superando-a-covid-19",
     "content/achievements/primeiro-notebook-gamer",
-    "content/achievements/primeiro-emprego-na-area",
-    "content/contact/whatsapp/index.md",
-    "content/contact/whatsapp/index.en.md"
+    "content/achievements/primeiro-emprego-na-area"
   ]
 }

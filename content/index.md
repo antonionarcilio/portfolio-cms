@@ -9,7 +9,7 @@ company:
 location: São Luís, Ma - Brasil
 highlight_text:
   - Obsessão por qualidade em cada detalhe.
-experience_month: "53"
+experience_month: 53
 experience_company: "[[content/experience/escallo/index|Escallo]]"
 contacts:
   - "[[content/contact/linkedin/index|LinkedIn]]"
