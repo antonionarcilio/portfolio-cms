@@ -3,7 +3,7 @@ aliases:
   - Backend
 description: APIs, modelagem de dados e lógica de servidor.
 icon: database
-techs:
+technologies:
   - "[[content/technology/expressjs/index|Express.js]]"
   - "[[content/technology/graphql/index|GraphQL]]"
   - "[[content/technology/mysql/index|MySQL]]"

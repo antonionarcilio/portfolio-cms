@@ -14,7 +14,7 @@ All content lives under `content/`, one subfolder per content type. Each entry i
 - `content/about/` — bio/about text (`description`, `excerpt`).
 - `content/experience/<company>/` — work history entries (`start`, `end`, `stacks`, `employment_type`, `expertise_area`).
 - `content/project/<company>/<project>/` — individual projects, linked from experience via `company` and to `stack` (technologies used).
-- `content/skill/<skill>/` — skill categories (e.g. frontend, backend, devops), each linking a list of `techs`.
+- `content/skill/<skill>/` — skill categories (e.g. frontend, backend, devops), each linking a list of `technologies`.
 - `content/technology/<tech>/` — leaf nodes describing individual tools/technologies (`aliases`, `description`). Referenced by skills, projects, and experience.
 - `content/education/`, `content/seniority/`, `content/achievements/`, `content/contacts/<channel>/` — smaller standalone entry types, each with their own minimal frontmatter shape.
 
@@ -22,7 +22,7 @@ All content lives under `content/`, one subfolder per content type. Each entry i
 
 - **Every entry is bilingual**: editing one field almost always means editing the same field in both `index.md` (pt-BR) and `index.en.md` (en). Keep wording equivalent in meaning, not literal translation.
 - **Cross-links use Obsidian wikilink syntax**: `"[[content/path/to/index|Display Text]]"`. Portuguese files link to `index` targets; English files link to `index.en` targets (note: some existing links inconsistently include `.md` — match the style already used in the specific field you're editing rather than "fixing" it repo-wide).
-- **Frontmatter field types are declared in `.obsidian/types.json`** (e.g. `techs`, `stack`, `skills`, `achievements`, `company`, `contact` are `multitext`; `start`/`end` are `date`; `year`/`order` are `number`). When adding a new field, register its type there too if it should show typed property UI in Obsidian.
+- **Frontmatter field types are declared in `.obsidian/types.json`** (e.g. `technologies`, `stack`, `skills`, `achievements`, `company`, `contact` are `multitext`; `start`/`end` are `date`; `year`/`order` are `number`). When adding a new field, register its type there too if it should show typed property UI in Obsidian.
 - **Multi-paragraph `description` fields use YAML block scalars** (`description: |-`) — preserve blank lines between paragraphs.
 - Every content entry also carries an `excerpt` (short summary) distinct from the full `description`.
 - Dates use ISO `YYYY-MM-DD`. An open-ended `end` date on current work should be left blank rather than guessed.

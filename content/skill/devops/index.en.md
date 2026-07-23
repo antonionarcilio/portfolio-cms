@@ -3,7 +3,7 @@ aliases:
   - DevOps & Infra
 description: Automation, deployment, and runtime environment.
 icon: lucide-container
-techs:
+technologies:
   - "[[content/technology/docker/index.en.md|Docker]]"
   - "[[content/technology/git/index.en.md|Git]]"
   - "[[content/technology/google-cloud-platform/index.en.md|Google Cloud Platform]]"

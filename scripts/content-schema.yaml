@@ -85,7 +85,7 @@ fields:
       - aliases
       - description
       - icon
-      - techs
+      - technologies
 
   technology:
     required:

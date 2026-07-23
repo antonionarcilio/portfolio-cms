@@ -3,7 +3,7 @@ aliases:
   - WebOps
 description: Presença, performance e descoberta na web.
 icon: egg
-techs:
+technologies:
   - "[[content/technology/datocms/index|DatoCMS]]"
   - "[[content/technology/google-analytics/index|Google Analytics]]"
   - "[[content/technology/google-tag-manager/index|Google Tag Manager]]"

@@ -3,7 +3,7 @@ aliases:
   - Testing & Automation
 description: Quality, reliability, and workflow automation.
 icon: flask-conical
-techs:
+technologies:
   - "[[content/technology/jest/index.en.md|Jest]]"
   - "[[content/technology/playwright/index.en.md|Playwright]]"
   - "[[content/technology/storybook/index.en.md|Storybook]]"
