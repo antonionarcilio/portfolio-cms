@@ -20,8 +20,8 @@ content_types:
     skills: { type: multitext, required: true }
     achievements: { type: multitext, required: true }
     cover: { type: text, required: false }
-    expertise_area: { type: multitext, required: true }
-    company: { type: multitext, required: false }
+    expertise_area: { type: text, required: true }
+    company: { type: text, required: false }
     location: { type: text, required: true }
     highlight_text: { type: multitext, required: false }
     experience_month: { type: number, required: false }
