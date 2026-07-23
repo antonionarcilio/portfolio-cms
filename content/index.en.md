@@ -11,7 +11,7 @@ highlight_text:
   - Obsession with quality in every detail.
 experience_month: "53"
 experience_company: "[[content/experience/escallo/index.en|Escallo]]"
-contact:
+contacts:
   - "[[content/contact/linkedin/index.en|LinkedIn]]"
   - "[[content/contact/github/index.en|GitHub]]"
   - "[[content/contact/email/index.en|Email]]"
@@ -25,7 +25,7 @@ projects:
   - "[[content/project/escallo/site-institucional-futurotec/index.en|Futurotec Site]]"
   - "[[content/project/escallo/bi/index.en|BI]]"
   - "[[content/project/escallo/bot-studio/index.en|Bot Studio]]"
-education: "[[content/education/ads/index.en|Systems Analysis and Development]]"
+educations: "[[content/education/ads/index.en|Systems Analysis and Development]]"
 skills:
   - "[[content/skill/frontend/index.en|Frontend]]"
   - "[[content/skill/backend/index.en|Backend]]"

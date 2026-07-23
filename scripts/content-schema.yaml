@@ -1,0 +1,93 @@
+# Schema de validação de conteúdo do portfolio-cms.
+# Edite este arquivo sempre que precisar:
+#   - Adicionar/remover um tipo de conteúdo
+#   - Adicionar/remover campos obrigatórios de um tipo
+# As mudanças entram em vigor no próximo commit (o hook lê este arquivo
+# do working tree, não do histórico).
+
+allowed_types:
+  - about
+  - achievement
+  - contact
+  - education
+  - experience
+  - project
+  - seniority
+  - skill
+  - technology
+
+fields:
+  root:
+    required:
+      - first_name
+      - last_name
+      - bio
+      - seniority
+      - contacts
+      - projects
+      - educations
+      - skills
+      - achievements
+
+  about:
+    required:
+      - aliases
+      - description
+      - excerpt
+
+  achievement:
+    required:
+      - aliases
+      - description
+      - year
+
+  contact:
+    required:
+      - aliases
+      - label
+      - tooltip
+      - url
+      - icon
+
+  education:
+    required:
+      - aliases
+      - description
+      - degree_type
+      - institution
+      - year
+
+  experience:
+    required:
+      - aliases
+      - description
+      - excerpt
+      - start
+      - expertise_area
+      - employment_type
+      - stacks
+
+  project:
+    required:
+      - aliases
+      - description
+      - excerpt
+      - company
+      - start
+      - stack
+
+  seniority:
+    required:
+      - aliases
+
+  skill:
+    required:
+      - aliases
+      - description
+      - icon
+      - techs
+
+  technology:
+    required:
+      - aliases
+      - description
