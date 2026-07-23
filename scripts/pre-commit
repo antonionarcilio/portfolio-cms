@@ -1,0 +1,20 @@
+#!/bin/sh
+# Git pre-commit hook wrapper.
+# Installed via scripts/install-hooks.sh
+set -e
+
+PYTHON=""
+for candidate in python3 python; do
+    if command -v "$candidate" >/dev/null 2>&1; then
+        PYTHON="$candidate"
+        break
+    fi
+done
+
+if [ -z "$PYTHON" ]; then
+    echo "Error: Python 3 is required for content validation" >&2
+    exit 1
+fi
+
+SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+exec "$PYTHON" "$SCRIPT_DIR/validate_content.py"
