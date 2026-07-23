@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/project/escallo/portal/index.md",
+                "file": "content/experience/escallo/index.en.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "index.en"
             }
           }
         ]
@@ -169,10 +169,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "content/project/escallo/portal/index.md"
+                "file": "content/experience/escallo/index.en.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for index"
+              "title": "File properties for index.en"
             }
           }
         ],
@@ -196,8 +196,9 @@
   },
   "active": "07eccdcc5cd8eac1",
   "lastOpenFiles": [
-    "content/project/escallo/portal/index.en.md",
+    "content/experience/escallo/index.md",
     "content/project/escallo/portal/index.md",
+    "content/project/escallo/portal/index.en.md",
     "content/project/escallo/bi/index.en.md",
     "content/project/escallo/bi/index.md",
     "content/project/escallo/blog-institucional-escallo/index.en.md",
@@ -217,7 +218,6 @@
     "2024-03-01.md",
     "content/technology/typescript/index.md",
     "content/technology/typescript/index.en.md",
-    "content/experience/escallo/index.md",
     "content/index.md",
     "content/index.en.md",
     "content/skill/devops/index.md",
