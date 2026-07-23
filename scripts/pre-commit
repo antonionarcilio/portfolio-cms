@@ -17,4 +17,11 @@ if [ -z "$PYTHON" ]; then
 fi
 
 SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
-exec "$PYTHON" "$SCRIPT_DIR/validate_content.py"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+"$PYTHON" "$SCRIPT_DIR/validate_content.py"
+
+# Stage generated TypeScript types (created by validate_content.py on success)
+if [ -f "$REPO_ROOT/content-types.d.ts" ]; then
+    git add "$REPO_ROOT/content-types.d.ts"
+fi

@@ -42,9 +42,17 @@ O hook valida a cada `git commit`:
 - Apenas `index.md` / `index.en.md` dentro de pastas de entry
 - Bilíngue obrigatório (todo `index.md` precisa de `index.en.md`)
 - Frontmatter YAML válido
-- Campos obrigatórios por tipo de conteúdo
+- Campos obrigatórios por tipo de conteúdo (`scripts/content-schema.yaml`)
+- Tipos dos campos correspondem ao esperado (`scripts/types-schema.yaml`)
+- Campos obrigatórios no schema de tipos não estão vazios
+- Nenhum campo não catalogado no schema de tipos
 - Wikilinks apontando para arquivos que existem
 
-## Schema
+Após a validação, o hook gera automaticamente o arquivo `content-types.d.ts` com as interfaces TypeScript de cada content type, que é incluído no mesmo commit.
 
-As regras de validação (tipos permitidos, campos obrigatórios) ficam em `scripts/content-schema.yaml`. Para alterar a estrutura do conteúdo, edite esse arquivo e faça commit junto com as mudanças nos arquivos de conteúdo.
+## Schemas
+
+- **`scripts/content-schema.yaml`** — define a estrutura esperada: tipos de conteúdo permitidos e campos obrigatórios (valida se a chave YAML existe no frontmatter).
+- **`scripts/types-schema.yaml`** — define o tipo de cada campo e se ele pode ficar vazio. Serve como contrato com o frontend para geração de tipos TypeScript em `content-types.d.ts`.
+
+Para alterar a estrutura do conteúdo, edite esses arquivos e faça commit junto com as mudanças nos arquivos de conteúdo. Qualquer campo presente no frontmatter que não esteja catalogado no `types-schema.yaml` será rejeitado.
