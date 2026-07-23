@@ -1,5 +1,6 @@
 ---
-title: WebOps
+aliases:
+  - WebOps
 description: Presença, performance e descoberta na web.
 icon: egg
 techs:

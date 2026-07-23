@@ -1,5 +1,6 @@
 ---
-title: Testing & Automation
+aliases:
+  - Testing & Automation
 description: Quality, reliability, and workflow automation.
 icon: flask-conical
 techs:

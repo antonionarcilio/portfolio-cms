@@ -1,5 +1,6 @@
 ---
-title: Frontend
+aliases:
+  - Frontend
 description: Building reactive, accessible, and performant interfaces.
 icon: lucide-code-xml
 techs:

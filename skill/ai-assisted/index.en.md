@@ -1,5 +1,6 @@
 ---
-title: AI-Assisted
+aliases:
+  - AI-Assisted
 description: AI-assisted development workflow.
 icon: brain
 techs:

@@ -1,5 +1,6 @@
 ---
-title: Backend
+aliases:
+  - Backend
 description: APIs, data modeling, and server logic.
 icon: database
 techs:

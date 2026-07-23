@@ -1,5 +1,6 @@
 ---
-title: Motion & Design
+aliases:
+  - Motion & Design
 description: Interface, prototyping, and product animation.
 icon: signature
 techs:

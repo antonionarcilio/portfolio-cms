@@ -1,5 +1,6 @@
 ---
-title: DevOps & Infra
+aliases:
+  - DevOps & Infra
 description: Automation, deployment, and runtime environment.
 icon: lucide-container
 techs:

@@ -1,5 +1,6 @@
 ---
-title: AI-Assisted
+aliases:
+  - AI-Assisted
 description: Fluxo de desenvolvimento assistido por IA.
 icon: brain
 techs:
