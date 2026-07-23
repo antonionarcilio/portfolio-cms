@@ -15,6 +15,7 @@ Validation rules (all checked against staged files only):
 Exit code 0 = valid, 1 = invalid.
 """
 
+import datetime
 import re
 import subprocess
 import sys
@@ -149,6 +150,8 @@ def check_field_type(value, expected_type: str) -> bool:
     elif expected_type == "number":
         return isinstance(value, (int, float))
     elif expected_type == "date":
+        if isinstance(value, datetime.date):
+            value = value.isoformat()
         return isinstance(value, str) and bool(DATE_RE.match(value))
     elif expected_type == "checkbox":
         return isinstance(value, bool)
