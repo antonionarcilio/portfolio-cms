@@ -321,7 +321,7 @@ def validate_frontmatter(
     # Rule 5: Required fields from content-schema.yaml (key must exist)
     required = schema.get("fields", {}).get(content_type, {}).get("required", [])
     for field in required:
-        if fm.get(field) is None:
+        if field not in fm:
             errors.append(
                 f"{rel_path}: missing required field '{field}' "
                 f"for content type '{content_type}'"
