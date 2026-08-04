@@ -8,7 +8,7 @@ seniority: "[[content/seniority/mid/index.en|Mid-level]]"
 company:
 location: São Luís, MA - Brazil
 highlight_text: Obsession with quality in every detail.
-experience_month: 55
+experience_month: 53
 experience_company: "[[content/experience/escallo/index.en|Escallo]]"
 contacts:
   - "[[content/contact/linkedin/index.en|LinkedIn]]"
