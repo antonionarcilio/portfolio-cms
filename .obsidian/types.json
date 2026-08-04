@@ -24,7 +24,7 @@
     "company": "text",
     "seniority": "text",
     "location": "text",
-    "highlight_text": "multitext",
+    "highlight_text": "text",
     "experience_month": "number",
     "experience_company": "multitext",
     "project": "multitext",

@@ -2,7 +2,7 @@
 aliases:
   - DevOps & Infra
 description: Automation, deployment, and runtime environment.
-icon: lucide-container
+icon: container
 technologies:
   - "[[content/technology/docker/index.en.md|Docker]]"
   - "[[content/technology/git/index.en.md|Git]]"

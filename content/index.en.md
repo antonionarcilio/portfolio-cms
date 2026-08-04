@@ -6,9 +6,8 @@ expertise_area: Frontend
 bio: "[[content/about/index.en|Bio]]"
 seniority: "[[content/seniority/mid/index.en|Mid-level]]"
 company:
-location: São Luís, Ma - Brazil
-highlight_text:
-  - Obsession with quality in every detail.
+location: São Luís, MA - Brazil
+highlight_text: Obsession with quality in every detail.
 experience_month: 53
 experience_company: "[[content/experience/escallo/index.en|Escallo]]"
 contacts:

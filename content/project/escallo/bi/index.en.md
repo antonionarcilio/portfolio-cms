@@ -6,8 +6,7 @@ description: |-
 
   I worked on developing dashboards, charts, and analytical interfaces focused on visualizing and tracking operational metrics, contributing to a clear and efficient presentation of strategic indicators and data.
 excerpt: Centralizes strategic metrics and operational indicators with dashboards and analytical interfaces for efficient data visualization.
-company:
-  - "[[content/experience/escallo/index.en.md|Escallo]]"
+company: "[[content/experience/escallo/index.en.md|Escallo]]"
 url:
 start: 2024-03-01
 end: 2026-02-01

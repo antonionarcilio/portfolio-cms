@@ -23,7 +23,7 @@ content_types:
     expertise_area: { type: text, required: true }
     company: { type: text, required: false }
     location: { type: text, required: true }
-    highlight_text: { type: multitext, required: false }
+    highlight_text: { type: text, required: false }
     experience_month: { type: number, required: false }
     experience_company: { type: multitext, required: true }
 
