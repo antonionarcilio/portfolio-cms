@@ -2,5 +2,6 @@
   "pretty-properties",
   "symbols-prettifier",
   "dataview",
-  "file-explorer-plus"
+  "file-explorer-plus",
+  "terminal"
 ]
