@@ -7,7 +7,7 @@ description: |-
   I worked on the development and maintenance of Futurotec's institutional website, participating from the project's initial structuring through its continuous evolution. I implemented custom features, tracking events, and integrations aimed at monitoring strategic user interactions, in addition to optimizations related to performance, responsiveness, Core Web Vitals, and navigation experience.
 excerpt: Institutional website with performance, technical SEO, and marketing integrations, featuring lead validation and event tracking.
 company: "[[content/experience/escallo/index.en.md|Futurotec]]"
-expertise_area: frontend
+expertise_area: Frontend
 url:
 start: 2024-03-01
 end: 2026-02-01

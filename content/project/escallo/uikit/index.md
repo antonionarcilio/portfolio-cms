@@ -9,7 +9,7 @@ description: |-
   Contribuí para melhorar a consistência visual entre produtos, acelerar o desenvolvimento das aplicações e aumentar a reutilização de código entre diferentes projetos da empresa.
 excerpt: Biblioteca de componentes reutilizáveis e escaláveis para padronização de interfaces e alinhamento ao Design System da empresa.
 company: "[[content/experience/escallo/index.md|Escallo]]"
-expertise_area: frontend
+expertise_area: Frontend
 url:
 start: 2024-03-01
 end: 2026-02-01

@@ -9,7 +9,7 @@ description: |-
   I contributed to improving visual consistency between products, speeding up application development, and increasing code reuse across different company projects.
 excerpt: Library of reusable and scalable components for interface standardization and alignment with the company's Design System.
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
-expertise_area: frontend
+expertise_area: Frontend
 url:
 start: 2024-03-01
 end: 2026-02-01

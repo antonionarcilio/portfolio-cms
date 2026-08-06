@@ -7,7 +7,7 @@ description: |-
   I worked on the development and maintenance of Escallo's institutional website, implementing custom features and integrations with external services such as RD Station. I developed lead conversion flows with security validation using Cloudflare Turnstile before sending data to the RD Station API, in addition to custom Elementor integrations for dynamic mapping of custom fields registered in RD Station via Dynamic Tags. I also worked on implementing event tracking (gtag), performance optimizations, responsiveness, Core Web Vitals, and improvements aimed at the user's navigation experience.
 excerpt: Institutional website with performance, technical SEO, and marketing integrations, featuring lead validation and event tracking.
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
-expertise_area: frontend
+expertise_area: Frontend
 url:
 start: 2024-03-01
 end: 2026-02-01
