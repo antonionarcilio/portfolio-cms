@@ -76,6 +76,7 @@ fields:
       - aliases
       - description
       - excerpt
+      - expertise_area
       - company
       - start
       - stack

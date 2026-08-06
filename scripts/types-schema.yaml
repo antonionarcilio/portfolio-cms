@@ -67,6 +67,7 @@ content_types:
     aliases: { type: aliases, required: true }
     description: { type: text, required: true }
     excerpt: { type: text, required: true }
+    expertise_area: { type: text, required: true }
     company: { type: multitext, required: true }
     start: { type: date, required: true }
     stack: { type: multitext, required: true }

@@ -68,6 +68,7 @@ export interface ProjectFields {
   description: string;
   end?: string;  // YYYY-MM-DD
   excerpt: string;
+  expertise_area: string;
   stack: string | string[];
   start: string;  // YYYY-MM-DD
   url?: string;

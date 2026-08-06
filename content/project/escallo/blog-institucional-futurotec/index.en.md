@@ -7,6 +7,7 @@ description: |-
   I worked on the development and maintenance of the institutional blogs (Escallo and Futurotec), implementing features focused on content curation and relationships, allowing authors to manually select related articles and reference existing publications across different company blogs. I also configured event tracking and monitoring of strategic user interactions via analytics tools, in addition to contributing to performance, accessibility, SEO, and navigation experience improvements.
 excerpt: Corporate blogs with optimized performance, SEO, and user experience, featuring content curation and recommendation capabilities.
 company: "[[content/experience/escallo/index.en.md|Futurotec]]"
+expertise_area: frontend
 url:
 start: 2024-03-01
 end: 2026-02-01

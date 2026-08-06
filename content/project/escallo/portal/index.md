@@ -9,6 +9,7 @@ description: |-
   Também **participei da prototipação de telas e definição de interfaces alinhadas ao Design System da empresa em demandas específicas do projeto**.
 excerpt: Aplicação para **autenticação**, usuários e permissões, com foco em interfaces, novas funcionalidades,**UX**, **usabilidade e consistência visual da plataforma**.
 company: "[[content/experience/escallo/index.md|Escallo]]"
+expertise_area: frontend
 url:
 start: 2024-03-01
 end: 2026-02-01
