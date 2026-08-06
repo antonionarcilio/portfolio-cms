@@ -9,6 +9,7 @@ description: |-
   I also participated in screen prototyping and interface definition aligned with the company's Design System for specific project demands.
 excerpt: Application for authentication, users, and permissions, focused on interfaces, new features, UX, usability, and the platform's visual consistency.
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
+expertise_area: frontend
 url:
 start: 2024-03-01
 end: 2026-02-01
