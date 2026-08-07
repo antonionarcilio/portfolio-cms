@@ -12,7 +12,7 @@ description: |-
   I also participated in creating prototypes and interface definitions, contributing directly to organizing flows, usability, and visual standardization of the products.
   
   Beyond frontend development, I worked on integrations with APIs, marketing and monitoring tools, implementing custom features, bug fixing, and continuous application evolution as new business demands arose.
-excerpt: Development and evolution of web applications, modern interfaces, integrations, and WordPress projects, with a focus on UX, Design System, and scalability.
+excerpt: Frontend developer working on internal web applications, institutional platforms, and corporate blogs, turning prototypes into modern, responsive interfaces aligned with the Design System. Experience with Next.js, React, TypeScript, WordPress, API integrations, and marketing tools, focused on UX and usability.
 site: https://escallo.com.br
 start: 2022-03-03
 end: 2026-05-18

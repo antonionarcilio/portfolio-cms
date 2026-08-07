@@ -12,7 +12,7 @@ description: |-
   Também participei da criação de protótipos e definições de interface, contribuindo diretamente na organização de fluxos, usabilidade e padronização visual dos produtos.
 
   Além do desenvolvimento frontend, atuei em integrações com APIs, ferramentas de marketing e monitoramento, implementação de funcionalidades customizadas, correção de bugs e evolução contínua das aplicações conforme novas demandas de negócio surgiam.
-excerpt: Desenvolvimento e evolução de aplicações web, interfaces modernas, integrações e projetos WordPress, com foco em UX, Design System e escalabilidade.
+excerpt: Desenvolvedor frontend em aplicações web internas, plataformas institucionais e blogs corporativos, transformando protótipos em interfaces modernas e responsivas alinhadas ao Design System. Experiência com Next.js, React, TypeScript, WordPress, integrações com APIs e marketing, focado em UX e usabilidade.
 site: https://escallo.com.br
 start: 2022-03-03
 end: 2026-05-18
