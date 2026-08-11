@@ -11,17 +11,18 @@ excerpt: Application for authentication, users, and permissions, focused on inte
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
+start: 2025-03-01
 end: 2026-02-01
 cover:
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
   - "[[content/technology/nextjs/index.en|Next.js]]"
-  - "[[content/technology/tailwindcss/index.en|TailwindCSS]]"
+  - "[[content/technology/tailwindcss/index.en|Tailwind CSS]]"
   - "[[content/technology/material-ui/index.en|Material UI]]"
   - "[[content/technology/zustand/index.en|Zustand]]"
   - "[[content/technology/zod/index.en|Zod]]"
   - "[[content/technology/docker/index.en|Docker]]"
   - "[[content/technology/figma/index.en|Figma]]"
+  - "[[content/technology/graphql/index.en|GraphQL]]"
 ---
 

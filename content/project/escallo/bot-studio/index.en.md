@@ -9,8 +9,8 @@ excerpt: Application for creating and configuring bots through visual canvas flo
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
-end: 2026-02-01
+start: 2025-09-08
+end: 2026-01-05
 cover:
 stack:
   - "[[content/technology/react/index.en|React]]"

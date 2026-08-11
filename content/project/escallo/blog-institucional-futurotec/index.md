@@ -9,8 +9,8 @@ excerpt: Blogs corporativos com performance, SEO e experiência do usuário otim
 company: "[[content/experience/escallo/index.md|Futurotec]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
-end: 2026-02-01
+start: 2023-03-06
+end: 2023-06-02
 cover: https://res.cloudinary.com/do39nkgr5/image/upload/v1784748132/blog-futurotec-2026_av8dff.png
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"

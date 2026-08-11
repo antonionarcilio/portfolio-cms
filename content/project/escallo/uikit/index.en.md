@@ -11,8 +11,8 @@ excerpt: Library of reusable and scalable components for interface standardizati
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
-end: 2026-02-01
+start: 2025-09-01
+end: 2026-02-06
 cover:
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
@@ -20,5 +20,6 @@ stack:
   - "[[content/technology/storybook/index.en|Storybook]]"
   - "[[content/technology/css-modules/index.en|CSS Modules]]"
   - "[[content/technology/rollup/index.en|Rollup]]"
+  - "[[content/technology/framer-motion/index.en|Framer Motion]]"
 ---
 

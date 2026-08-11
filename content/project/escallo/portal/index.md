@@ -11,7 +11,7 @@ excerpt: Aplicação para **autenticação**, usuários e permissões, com foco 
 company: "[[content/experience/escallo/index.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
+start: 2025-03-01
 end: 2026-02-01
 cover:
 stack:
@@ -23,4 +23,5 @@ stack:
   - "[[content/technology/zod/index|Zod]]"
   - "[[content/technology/docker/index|Docker]]"
   - "[[content/technology/figma/index|Figma]]"
+  - "[[content/technology/graphql/index|GraphQL]]"
 ---

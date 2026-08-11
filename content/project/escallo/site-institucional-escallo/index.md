@@ -9,8 +9,8 @@ excerpt: Website institucional com performance, SEO técnico e integrações de 
 company: "[[content/experience/escallo/index.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
-end: 2026-02-01
+start: 2026-02-03
+end: 2026-05-01
 cover: https://res.cloudinary.com/do39nkgr5/image/upload/v1784748134/escallo-2026_v5nawc.png
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"

@@ -9,8 +9,8 @@ excerpt: Institutional website with performance, technical SEO, and marketing in
 company: "[[content/experience/escallo/index.en.md|Futurotec]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
-end: 2026-02-01
+start: 2022-12-05
+end: 2023-04-28
 cover:
 stack:
   - "[[content/technology/wordpress/index.en|WordPress]]"

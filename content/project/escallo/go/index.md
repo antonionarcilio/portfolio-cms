@@ -9,7 +9,7 @@ excerpt: Aplicação moderna e performática que reúne as principais funcionali
 company: "[[content/experience/escallo/index.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
+start: 2025-03-01
 end: 2026-02-01
 cover:
 stack:

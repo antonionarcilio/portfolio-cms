@@ -11,8 +11,8 @@ excerpt: Biblioteca de componentes reutilizáveis e escaláveis para padronizaç
 company: "[[content/experience/escallo/index.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
-end: 2026-02-01
+start: 2025-09-01
+end: 2026-02-06
 cover:
 stack:
   - "[[content/technology/typescript/index|TypeScript]]"
@@ -20,5 +20,6 @@ stack:
   - "[[content/technology/storybook/index|Storybook]]"
   - "[[content/technology/css-modules/index|CSS Modules]]"
   - "[[content/technology/rollup/index|Rollup]]"
+  - "[[content/technology/framer-motion/index|Framer Motion]]"
 ---
 

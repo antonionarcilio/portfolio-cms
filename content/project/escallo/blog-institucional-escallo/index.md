@@ -9,8 +9,8 @@ excerpt: Blogs corporativos com performance, SEO e experiência do usuário otim
 company: "[[content/experience/escallo/index.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
-end: 2026-02-01
+start: 2023-03-06
+end: 2026-05-01
 cover: https://res.cloudinary.com/do39nkgr5/image/upload/v1784748132/blog-escallo-2026_izn1cl.png
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"

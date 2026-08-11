@@ -9,8 +9,8 @@ excerpt: Centralizes strategic metrics and operational indicators with dashboard
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
 url:
-start: 2024-03-01
-end: 2026-02-01
+start: 2022-04-04
+end: 2022-12-30
 cover:
 stack:
   - "[[content/technology/javascript/index.en|JavaScript]]"
