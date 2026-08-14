@@ -2,10 +2,14 @@
 aliases:
   - Go
 description: |-
-  Application developed to provide a more modern, high-performance, and intuitive experience, bringing together the main features used by the main platform's users.
+  Application built from scratch with the purpose of offering customers a leaner, more intuitive alternative to the main platform, reducing the complexity caused by the large number of settings, customizations, and available flows. I worked as a **Frontend Developer from the product's conception**, being responsible for the full implementation of the application and, later, for its maintenance and continuous evolution.
 
-  I worked on implementing and evolving the application's interfaces, developing features, and continuously maintaining the product, contributing to improvements related to usability, user experience, and the platform's visual consistency. I also participated in screen prototyping and interface evolution aligned with the company's Design System.
-excerpt: Modern, high-performance application that brings together the main features with improved experience, usability, and visual consistency.
+  Beyond development, I participated in **reworking the user experience**, redesigning flows from the main platform that involved many steps, customization options, and extensive, poorly structured forms. The goal was to turn these flows into more direct and intuitive journeys, reducing steps, distractions, and unnecessary decisions for the user.
+
+  As the product evolved, I also took over the continuity of the **Design System**, whose initial structure had been prototyped by a designer. Building on that work, I began evolving components, visual patterns, and interface behaviors according to the needs identified during development.
+
+  I also worked on **optimizing communication with the API**, reducing redundant requests by consolidating GraphQL queries into a single call per page.
+excerpt: Application created as a leaner alternative to the main platform, focused on **simplicity and usability**, working on the frontend, evolving the **Design System**, UX, and optimizing API communication.
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
 url:
