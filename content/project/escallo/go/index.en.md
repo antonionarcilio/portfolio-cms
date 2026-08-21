@@ -9,7 +9,7 @@ description: |-
   As the product evolved, I also took over the continuity of the **Design System**, whose initial structure had been prototyped by a designer. Building on that work, I began evolving components, visual patterns, and interface behaviors according to the needs identified during development.
 
   I also worked on **optimizing communication with the API**, reducing redundant requests by consolidating GraphQL queries into a single call per page.
-excerpt: Application created as a leaner alternative to the main platform, focused on **simplicity and usability**, working on the frontend, evolving the **Design System**, UX, and optimizing API communication.
+excerpt: Application created as a leaner alternative to the main platform, focused on simplicity and usability, working on the frontend, evolving the Design System, UX, and optimizing API communication.
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
 url:

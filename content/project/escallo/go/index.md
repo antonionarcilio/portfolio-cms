@@ -9,7 +9,7 @@ description: |-
   Com a evolução do produto, também assumi a continuidade do **Design System**, cuja estrutura inicial havia sido prototipada por um designer. A partir desse trabalho, passei a evoluir componentes, padrões visuais e comportamentos de interface de acordo com as necessidades identificadas durante o desenvolvimento.
 
   Também trabalhei na **otimização da comunicação com a API**, reduzindo requisições redundantes por meio da consolidação de queries GraphQL em uma única chamada por página.
-excerpt: Aplicação criada como alternativa mais enxuta à plataforma principal, com foco em **simplicidade e usabilidade**, atuando no frontend, evolução do **Design System**, UX e otimização da comunicação com APIs.
+excerpt: Aplicação criada como alternativa mais enxuta à plataforma principal, com foco em simplicidade e usabilidade, atuando no frontend, evolução do Design System, UX e otimização da comunicação com APIs.
 company: "[[content/experience/escallo/index.md|Escallo]]"
 expertise_area: Frontend
 url:
