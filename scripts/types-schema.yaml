@@ -54,14 +54,19 @@ content_types:
 
   experience:
     aliases: { type: aliases, required: true }
+    about: { type: text, required: true }
     description: { type: text, required: true }
     excerpt: { type: text, required: true }
-    start: { type: date, required: true }
-    expertise_area: { type: text, required: true }
-    employment_type: { type: text, required: true }
-    stacks: { type: multitext, required: true }
     site: { type: text, required: false }
+    start: { type: date, required: true }
     end: { type: date, required: false }
+    logo: { type: text, required: true }
+    expertise_area: { type: text, required: true }
+    location: { type: text, required: true }
+    industry: { type: text, required: true }
+    employment_type: { type: text, required: true }
+    products_and_projects: { type: multitext, required: false }
+    stacks: { type: multitext, required: true }
 
   project:
     aliases: { type: aliases, required: true }

@@ -50,12 +50,17 @@ export interface EducationFields {
 }
 
 export interface ExperienceFields {
+  about: string;
   aliases: string | string[];
   description: string;
   employment_type: string;
   end?: string;  // YYYY-MM-DD
   excerpt: string;
   expertise_area: string;
+  industry: string;
+  location: string;
+  logo: string;
+  products_and_projects?: string | string[];
   site?: string;
   stacks: string | string[];
   start: string;  // YYYY-MM-DD
