@@ -24,7 +24,7 @@ logo: https://res.cloudinary.com/do39nkgr5/image/upload/v1787343652/logo_escallo
 expertise_area: Desenvolvedor Frontend
 location: Ipatinga, MG - Brasil
 industry: Tecnologia e Serviços de Comunicação
-employment_type: Remoto | PJ
+employment_type: Remoto
 products_and_projects:
   - "[[content/project/escallo/portal/index|Portal]]"
   - "[[content/project/escallo/go/index|Go]]"

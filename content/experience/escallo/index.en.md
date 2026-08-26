@@ -24,7 +24,7 @@ logo: https://res.cloudinary.com/do39nkgr5/image/upload/v1787343652/logo_escallo
 expertise_area: Frontend Developer
 location: Ipatinga, MG - Brazil
 industry: Technology and Communication Services
-employment_type: Remote | Contractor
+employment_type: Remote
 products_and_projects:
   - "[[content/project/escallo/portal/index|Portal]]"
   - "[[content/project/escallo/go/index|Go]]"
