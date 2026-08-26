@@ -8,7 +8,7 @@ description: |-
 excerpt: Corporate blogs with optimized performance, SEO, and user experience, featuring content curation and recommendation capabilities.
 company: "[[content/experience/escallo/index.en.md|Futurotec]]"
 expertise_area: Frontend
-url:
+url: https://blog.futurotec.com.br
 start: 2023-03-06
 end: 2023-06-02
 cover: https://res.cloudinary.com/do39nkgr5/image/upload/v1784748132/blog-futurotec-2026_av8dff.png
