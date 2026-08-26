@@ -4,7 +4,6 @@ aliases:
 description: |-
   Aplicação desenvolvida para **centralizar o acesso às diferentes soluções do ecossistema da empresa**, permitindo que o usuário se autentique uma única vez e acesse produtos e funcionalidades de acordo com suas permissões. **Atuei como desenvolvedor frontend** ao longo do desenvolvimento, manutenção e evolução contínua do produto, contribuindo também com **UI/UX** na definição e melhoria de alguns fluxos e interfaces.
 
-
   Em parceria com outro desenvolvedor, participei da **implementação da aplicação desde sua concepção inicial**, desenvolvendo funcionalidades centrais como o **sistema de controle de acesso**, que permitia gerenciar usuários e definir seus respectivos **níveis de acesso**. A partir desses níveis, eram determinadas as funcionalidades disponíveis para cada usuário, como possibilidade de acesso a soluções externas, **gerenciamento de assinaturas e notas fiscais** e um **MVP de pipeline de vendas**.
 
   Com a evolução do produto, também assumi a continuidade do **Design System**, cuja estrutura inicial havia sido prototipada por um designer. Conforme a aplicação ganhou maturidade, passei a evoluir componentes, padrões visuais e comportamentos de interface de acordo com as necessidades identificadas durante o desenvolvimento.
