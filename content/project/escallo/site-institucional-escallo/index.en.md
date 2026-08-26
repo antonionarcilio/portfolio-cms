@@ -8,7 +8,7 @@ description: |-
 excerpt: Institutional website with performance, technical SEO, and marketing integrations, featuring lead validation and event tracking.
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
-url:
+url: https://escallo.com.br
 start: 2026-02-03
 end: 2026-05-01
 cover: https://res.cloudinary.com/do39nkgr5/image/upload/v1784748134/escallo-2026_v5nawc.png

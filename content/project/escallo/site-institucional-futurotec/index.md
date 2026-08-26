@@ -8,7 +8,7 @@ description: |-
 excerpt: Website institucional com performance, SEO técnico e integrações de marketing, com validação de leads e rastreamento de eventos.
 company: "[[content/experience/escallo/index.md|Futurotec]]"
 expertise_area: Frontend
-url:
+url: https://futurotec.com.br
 start: 2022-12-05
 end: 2023-04-28
 cover:

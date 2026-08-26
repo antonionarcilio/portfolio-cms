@@ -8,7 +8,7 @@ description: |-
 excerpt: Corporate blogs with optimized performance, SEO, and user experience, featuring content curation and recommendation capabilities.
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
-url:
+url: https://blog.escallo.com.br
 start: 2022-12-01
 end: 2023-06-01
 cover: https://res.cloudinary.com/do39nkgr5/image/upload/v1784748132/blog-escallo-2026_izn1cl.png
