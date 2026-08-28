@@ -80,6 +80,10 @@ fields:
       - aliases
       - description
       - excerpt
+      - objective
+      - what-i-built
+      - challenge
+      - result
       - expertise_area
       - company
       - start

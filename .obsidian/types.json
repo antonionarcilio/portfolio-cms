@@ -37,6 +37,11 @@
     "project": "multitext",
     "skills": "multitext",
     "stack": "multitext",
-    "achievements": "multitext"
+    "achievements": "multitext",
+    "objective": "text",
+    "what-i-built": "text",
+    "challenge": "text",
+    "result": "text",
+    "carrousel": "multitext"
   }
 }

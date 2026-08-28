@@ -72,6 +72,10 @@ content_types:
     aliases: { type: aliases, required: true }
     description: { type: text, required: true }
     excerpt: { type: text, required: true }
+    objective: { type: text, required: true }
+    what-i-built: { type: text, required: true }
+    challenge: { type: text, required: true }
+    result: { type: text, required: true }
     expertise_area: { type: text, required: true }
     company: { type: multitext, required: true }
     start: { type: date, required: true }
@@ -79,6 +83,7 @@ content_types:
     url: { type: text, required: false }
     end: { type: date, required: false }
     cover: { type: text, required: false }
+    carrousel: { type: multitext, required: false }
 
   seniority:
     aliases: { type: aliases, required: true }
