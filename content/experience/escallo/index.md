@@ -9,7 +9,7 @@ about: |-
 description: |-
   **Atuei como desenvolvedor frontend** participando do desenvolvimento e evolução de aplicações web internas, plataformas institucionais e blogs corporativos.
 
-  Fui **esponsável por** *transformar protótipos em interfaces funcionais, modernas e responsivas, mantendo alinhamento com o Design System da empresa e foco constante na experiência do usuário.*
+  Fui **responsável por** *transformar protótipos em interfaces funcionais, modernas e responsivas, mantendo alinhamento com o Design System da empresa e foco constante na experiência do usuário.*
 
   Durante esse período, trabalhei no desenvolvimento de aplicações utilizando tecnologias como Next.js, React e TypeScript, além da manutenção e evolução de projetos em WordPress.
 
