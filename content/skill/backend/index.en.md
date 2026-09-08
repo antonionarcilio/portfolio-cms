@@ -5,6 +5,7 @@ description: APIs, data modeling, and server logic.
 icon: database
 technologies:
   - "[[content/technology/expressjs/index.en.md|Express.js]]"
+  - "[[content/technology/java/index.en.md|Java]]"
   - "[[content/technology/graphql/index.en.md|GraphQL]]"
   - "[[content/technology/mysql/index.en.md|MySQL]]"
   - "[[content/technology/nodejs/index.en.md|Node.js]]"

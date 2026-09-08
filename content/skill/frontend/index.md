@@ -4,6 +4,7 @@ aliases:
 description: Construção de interfaces reativas, acessíveis e performáticas.
 icon: code-xml
 technologies:
+  - "[[content/technology/angular/index|Angular]]"
   - "[[content/technology/css/index|CSS]]"
   - "[[content/technology/css-modules/index|CSS Modules]]"
   - "[[content/technology/html/index|HTML]]"
@@ -12,6 +13,7 @@ technologies:
   - "[[content/technology/material-ui/index|Material UI]]"
   - "[[content/technology/nextjs/index|Next.js]]"
   - "[[content/technology/react/index|React]]"
+  - "[[content/technology/react-flow/index|React Flow]]"
   - "[[content/technology/redux/index|Redux]]"
   - "[[content/technology/shadcn/index|shadcn/ui]]"
   - "[[content/technology/styled-components/index|styled-components]]"
