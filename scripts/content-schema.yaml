@@ -73,6 +73,7 @@ fields:
       - location
       - industry
       - employment_type
+      - linkedin
       - stacks
 
   project:

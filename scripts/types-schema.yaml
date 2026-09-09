@@ -58,6 +58,7 @@ content_types:
     description: { type: text, required: true }
     excerpt: { type: text, required: true }
     site: { type: text, required: false }
+    linkedin: { type: text, required: false }
     start: { type: date, required: true }
     end: { type: date, required: false }
     logo: { type: text, required: true }
