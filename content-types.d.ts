@@ -58,6 +58,7 @@ export interface ExperienceFields {
   excerpt: string;
   expertise_area: string;
   industry: string;
+  linkedin: string;
   location: string;
   logo: string;
   products_and_projects?: string | string[];
