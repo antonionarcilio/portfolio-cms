@@ -5,6 +5,7 @@ Called by the pre-commit hook after validation passes.
 Can also be run standalone:  python3 scripts/generate_types.py
 """
 
+import re
 import sys
 from pathlib import Path
 
@@ -32,6 +33,16 @@ TS_TYPE_MAP = {
     "tags": "string | string[]",
     "cssclasses": "string | string[]",
 }
+
+
+_IDENTIFIER = re.compile(r"^[A-Za-z_$][A-Za-z0-9_$]*$")
+
+
+def ts_key(field_name: str) -> str:
+    """Quote keys that aren't valid JS identifiers (e.g. 'what-i-built')."""
+    if _IDENTIFIER.match(field_name):
+        return field_name
+    return f"'{field_name}'"
 
 
 def load_yaml(path: Path) -> dict:
@@ -78,7 +89,7 @@ def generate(schema: dict, types_schema: dict) -> str:
             if field_def["type"] == "date":
                 comment = "  // YYYY-MM-DD"
             lines.append(
-                f"  {field_name}{optional}: {ts_type};{comment}"
+                f"  {ts_key(field_name)}{optional}: {ts_type};{comment}"
             )
 
         lines.append("}")
