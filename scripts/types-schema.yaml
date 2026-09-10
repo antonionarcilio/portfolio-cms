@@ -74,7 +74,7 @@ content_types:
     description: { type: text, required: true }
     excerpt: { type: text, required: true }
     objective: { type: text, required: true }
-    what-i-built: { type: text, required: true }
+    what_i_built: { type: text, required: true }
     challenge: { type: text, required: true }
     result: { type: text, required: true }
     expertise_area: { type: text, required: true }

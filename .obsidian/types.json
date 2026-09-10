@@ -39,7 +39,7 @@
     "stack": "multitext",
     "achievements": "multitext",
     "objective": "text",
-    "what-i-built": "text",
+    "what_i_built": "text",
     "challenge": "text",
     "result": "text",
     "carrousel": "multitext"

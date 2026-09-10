@@ -82,7 +82,7 @@ export interface ProjectFields {
   stack: string | string[];
   start: string;  // YYYY-MM-DD
   url?: string;
-  'what-i-built': string;
+  what_i_built: string;
 }
 
 export interface SeniorityFields {

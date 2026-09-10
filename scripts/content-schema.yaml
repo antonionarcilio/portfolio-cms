@@ -82,7 +82,7 @@ fields:
       - description
       - excerpt
       - objective
-      - what-i-built
+      - what_i_built
       - challenge
       - result
       - expertise_area

@@ -39,7 +39,7 @@ _IDENTIFIER = re.compile(r"^[A-Za-z_$][A-Za-z0-9_$]*$")
 
 
 def ts_key(field_name: str) -> str:
-    """Quote keys that aren't valid JS identifiers (e.g. 'what-i-built')."""
+    """Quote keys that aren't valid JS identifiers (e.g. 'what_i_built')."""
     if _IDENTIFIER.match(field_name):
         return field_name
     return f"'{field_name}'"
