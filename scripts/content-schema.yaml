@@ -37,6 +37,8 @@ fields:
       - aliases
       - description
       - excerpt
+      - question_one
+      - response_one
 
   achievement:
     required:

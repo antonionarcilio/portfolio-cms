@@ -24,6 +24,8 @@ export interface AboutFields {
   aliases: string | string[];
   description: string;
   excerpt: string;
+  question_one: string;
+  response_one: string;
 }
 
 export interface AchievementFields {
