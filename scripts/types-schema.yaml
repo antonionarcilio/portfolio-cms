@@ -31,8 +31,11 @@ content_types:
     aliases: { type: aliases, required: true }
     description: { type: text, required: true }
     excerpt: { type: text, required: true }
+    location: { type: text, required: true }
     question_one: { type: text, required: true }
+    question_two: { type: text, required: true }
     response_one: { type: text, required: true }
+    response_two: { type: text, required: true }
 
   achievement:
     aliases: { type: aliases, required: true }

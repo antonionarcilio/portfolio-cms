@@ -37,8 +37,11 @@ fields:
       - aliases
       - description
       - excerpt
+      - location
       - question_one
+      - question_two
       - response_one
+      - response_two
 
   achievement:
     required:
