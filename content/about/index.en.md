@@ -11,4 +11,13 @@ description: |-
 
   I am constantly evolving, always exploring new ways to create better products, improve experiences, and turn complex challenges into simple, well-executed solutions.
 excerpt: Over 4 years developing modern interfaces, combining technical quality, user experience, and attention to the smallest details.
+question_one: What value do I deliver that an AI alone cannot deliver?
+response_one: |-
+  An identity.
+
+  Every day, creating an attractive and functional interface for a product — whether it's a web application, a website, a blog, or a landing page — is getting easier. That's thanks to the advancement of AI, which, with increasingly powerful tools, enables an ordinary user to bring their idea 'off the page' with a simple prompt.
+
+  The problem is that an AI with no control, orchestration, or managed without any technical knowledge can lead to a generic result. It's very easy to find on the web today products that look alike, infamous products with an 'AI look'.
+
+  That's where a professional with experience, technical knowledge, and a focus on quality, usability, and performance steps in to change this scenario.
 ---

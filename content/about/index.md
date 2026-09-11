@@ -11,4 +11,13 @@ description: |-
 
   Estou em constante evolução, sempre explorando novas formas de criar produtos melhores, aprimorar experiências e transformar desafios complexos em soluções simples e bem executadas.
 excerpt: Mais de 4 anos desenvolvendo interfaces modernas, combinando qualidade técnica, experiência do usuário e atenção aos mínimos detalhes.
+question_one: Que valor eu entrego que uma IA sozinha não consegue entregar?
+response_one: |-
+  Uma identidade. 
+
+  A cada dia que passa, construir uma interface atrativa e funcional para um produto — seja ele uma aplicação web, um website, um blog ou uma landing page — está cada vez mais fácil. Isso graças ao avanço da IA, que, com ferramentas cada vez mais poderosas, possibilita a um usuário comum ‘tirar do papel’ sua ideia com um simples prompt.
+
+  O problema é que uma IA sem nenhum controle, orquestração ou gerida sem nenhum conhecimento técnico pode levar a um resultado genérico. É muito fácil encontrar hoje na web produtos que se parecem entre si, produtos famigerados com “cara de IA”.
+
+  É aí que um profissional com experiência, conhecimento técnico e foco em qualidade, usabilidade e performance entra para mudar esse cenário.
 ---
