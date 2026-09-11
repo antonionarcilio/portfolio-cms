@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Institutional Blog
+  - Futurotec Blog
 description: |-
   Corporate blogs developed with a focus on performance, technical SEO, accessibility, and navigation experience, using custom features for content recommendation, article integration, and increased user engagement.
 

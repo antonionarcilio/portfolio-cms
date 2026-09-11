@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Institutional Site
+  - Futurotec Site
 description: |-
   Institutional platforms developed with a focus on performance, technical SEO, accessibility, marketing tool integrations, and multilingual support (PT-BR, EN, and ES).
 

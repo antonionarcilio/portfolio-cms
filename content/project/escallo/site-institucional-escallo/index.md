@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Site Institucional
+  - Site Escallo
 description: |-
   Plataformas institucionais desenvolvidas com foco em performance, SEO técnico, acessibilidade, integrações com ferramentas de marketing e suporte multilíngue (PT-BR e EN).
 

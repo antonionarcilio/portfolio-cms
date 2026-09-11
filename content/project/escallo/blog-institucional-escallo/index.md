@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Blog Institucional
+  - Blog Escallo
 description: |-
   Blogs corporativos desenvolvidos com foco em performance, SEO técnico, acessibilidade e experiência de navegação, utilizando funcionalidades personalizadas para recomendação de conteúdo, integração entre artigos e aumento do engajamento dos usuários.
 
