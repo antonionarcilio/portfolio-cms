@@ -3,7 +3,7 @@ aliases:
   - Bio
   - About
 description: |-
-  I am a software developer with over 4 years of experience creating digital solutions for the web. Throughout my career, I have participated in projects of different sizes, contributing to the development of applications, platforms, and digital experiences that connect business needs to user expectations.
+  I am a Systems Analyst and Developer with over 4 years of experience in the market as a Front-end software developer. Throughout my career, I have participated in projects of different sizes, contributing to the development of applications, platforms, and digital experiences that connect business needs to user expectations.
 
   I have a special interest in solving problems practically and building products that are intuitive, efficient, and enjoyable to use. I believe technology should simplify processes, generate value for people, and turn good ideas into relevant digital experiences.
 
@@ -14,7 +14,7 @@ excerpt: Over 4 years developing modern interfaces, combining technical quality,
 location: São Luís, MA - Brazil
 question_one: A little about who I am.
 response_one: |-
-  I am a software developer with over 4 years of experience creating digital solutions for the web. Throughout my career, I have participated in projects of different sizes, contributing to the development of applications, platforms, and digital experiences that connect business needs to user expectations.
+  I am a Systems Analyst and Developer with over 4 years of experience in the market as a Front-end software developer. Throughout my career, I have participated in projects of different sizes, contributing to the development of applications, platforms, and digital experiences that connect business needs to user expectations.
 
   I have a special interest in solving problems practically and building products that are intuitive, efficient, and enjoyable to use. I believe technology should simplify processes, generate value for people, and turn good ideas into relevant digital experiences.
 

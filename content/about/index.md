@@ -3,7 +3,7 @@ aliases:
   - Bio
   - Sobre
 description: |-
-  Sou desenvolvedor de software com mais de 4 anos de experiência criando soluções digitais para a web. Ao longo da minha trajetória, participei de projetos de diferentes portes, contribuindo para o desenvolvimento de aplicações, plataformas e experiências digitais que conectam necessidades de negócio às expectativas dos usuários.
+  Sou Analista e Desenvolvedor de Sistemas e tenho mais de 4 anos de experiência no mercado como desenvolvedor de software Front-end. Ao longo da minha trajetória, participei de projetos de diferentes portes, contribuindo para o desenvolvimento de aplicações, plataformas e experiências digitais que conectam necessidades de negócio às expectativas dos usuários.
 
   Tenho interesse especial por resolver problemas de forma prática e construir produtos que sejam intuitivos, eficientes e agradáveis de utilizar. Acredito que tecnologia deve simplificar processos, gerar valor para as pessoas e transformar boas ideias em experiências digitais relevantes.
 
@@ -14,7 +14,7 @@ excerpt: Mais de 4 anos desenvolvendo interfaces modernas, combinando qualidade 
 location: São Luís, MA - Brasil
 question_one: Um pouco sobre quem eu sou.
 response_one: |-
-  Sou desenvolvedor de software com mais de 4 anos de experiência criando soluções digitais para a web. Ao longo da minha trajetória, participei de projetos de diferentes portes, contribuindo para o desenvolvimento de aplicações, plataformas e experiências digitais que conectam necessidades de negócio às expectativas dos usuários.
+  Sou Analista e Desenvolvedor de Sistemas e tenho mais de 4 anos de experiência no mercado como desenvolvedor de software Front-end. Ao longo da minha trajetória, participei de projetos de diferentes portes, contribuindo para o desenvolvimento de aplicações, plataformas e experiências digitais que conectam necessidades de negócio às expectativas dos usuários.
 
   Tenho interesse especial por resolver problemas de forma prática e construir produtos que sejam intuitivos, eficientes e agradáveis de utilizar. Acredito que tecnologia deve simplificar processos, gerar valor para as pessoas e transformar boas ideias em experiências digitais relevantes.
 
