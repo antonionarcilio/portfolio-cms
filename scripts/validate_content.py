@@ -147,6 +147,8 @@ def check_field_type(value, expected_type: str) -> bool:
     """Check if a frontmatter value matches the expected Obsidian type."""
     if expected_type == "text":
         return isinstance(value, str)
+    elif expected_type == "markdown":
+        return isinstance(value, str)
     elif expected_type == "number":
         return isinstance(value, (int, float))
     elif expected_type == "date":
@@ -312,7 +314,12 @@ def validate_frontmatter(
     try:
         fm = yaml.safe_load(yaml_text)
     except yaml.YAMLError as exc:
-        errors.append(f"{rel_path}: invalid YAML frontmatter: {exc}")
+        hint = (
+            " If the value is a markdown field starting with a YAML "
+            "reserved character (e.g. `*`, `[`, `{`, `&`, `-`), quote it "
+            "or use a block scalar (`field: |-`)."
+        )
+        errors.append(f"{rel_path}: invalid YAML frontmatter: {exc}{hint}")
         return
 
     if not isinstance(fm, dict):

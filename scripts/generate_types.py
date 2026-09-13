@@ -25,6 +25,7 @@ TYPES_TS_PATH = REPO_ROOT / "content-types.d.ts"
 
 TS_TYPE_MAP = {
     "text": "string",
+    "markdown": "string",
     "number": "number",
     "date": "string",
     "checkbox": "boolean",
@@ -88,6 +89,8 @@ def generate(schema: dict, types_schema: dict) -> str:
             comment = ""
             if field_def["type"] == "date":
                 comment = "  // YYYY-MM-DD"
+            elif field_def["type"] == "markdown":
+                comment = "  // Markdown"
             lines.append(
                 f"  {ts_key(field_name)}{optional}: {ts_type};{comment}"
             )
