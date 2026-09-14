@@ -21,7 +21,7 @@ response_one: |-
   My work combines **attention to detail, analytical thinking, and a commitment to quality**. I seek to understand the context of each project to develop solutions that are **sustainable, scalable, and aligned with the goals** of those who use them.
 
   I am constantly evolving, always exploring new ways to create better products, improve experiences, and **turn complex challenges into simple, well-executed solutions**.
-question_two: What value do I deliver that an AI alone cannot deliver?
+question_two: What values do I deliver that an AI alone cannot deliver?
 response_two: |-
   **An identity:**
 
