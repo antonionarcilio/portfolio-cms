@@ -27,7 +27,7 @@ response_two: |-
 
   A cada dia que passa, construir uma interface atrativa e funcional para um produto — seja ele uma aplicação web, um website, um blog ou uma landing page — está cada vez mais fácil. Isso graças ao avanço da IA, que, com ferramentas cada vez mais poderosas, possibilita a um usuário comum “tirar do papel” sua ideia com um simples prompt.
 
-  O problema é que uma IA sem nenhum controle, orquestração ou gerida sem conhecimento técnico pode levar a um resultado genérico. É muito fácil encontrar hoje na web produtos que se parecem entre si, produtos com a famosa “cara de IA”.
+  O problema é que uma IA sem nenhum controle, orquestração ou gerida sem conhecimento técnico pode levar a um resultado genérico. É muito fácil encontrar hoje na web produtos que se parecem entre si, produtos com a famigerada “cara de IA”.
 
   É aí que um profissional com experiência, conhecimento técnico e foco em qualidade, usabilidade e performance entra para mudar esse cenário.
 
