@@ -38,9 +38,9 @@ start: 2025-03-01
 end: 2026-02-01
 cover:
 carrousel:
-  - https://res.cloudinary.com/do39nkgr5/image/upload/c_fill,ar_16:9,g_auto/v1789086887/MacBook_Air_-_3_myn96j.png
-  - https://res.cloudinary.com/do39nkgr5/image/upload/c_fill,ar_16:9,g_auto/v1789086887/MacBook_Air_-_2_zctje8.png
-  - https://res.cloudinary.com/do39nkgr5/image/upload/c_fill,ar_16:9,g_auto/v1789086886/MacBook_Air_-_1_dpsffp.png
+  - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086887/MacBook_Air_-_3_myn96j.png
+  - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086887/MacBook_Air_-_2_zctje8.png
+  - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086886/MacBook_Air_-_1_dpsffp.png
 stack:
   - "[[content/technology/typescript/index|TypeScript]]"
   - "[[content/technology/nextjs/index|Next.js]]"
