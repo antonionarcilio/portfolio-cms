@@ -21,7 +21,7 @@ response_one: |-
   Meu trabalho combina **atenção aos detalhes, pensamento analítico e compromisso com a qualidade**. Busco compreender o contexto de cada projeto para desenvolver soluções que sejam **sustentáveis, escaláveis e alinhadas aos objetivos** de quem as utiliza.
 
   Estou em constante evolução, sempre explorando novas formas de criar produtos melhores, aprimorar experiências e **transformar desafios complexos em soluções simples e bem executadas**.
-question_two: Que valor eu entrego que uma IA sozinha não consegue entregar?
+question_two: Quais valores eu entrego que uma IA sozinha não consegue entregar?
 response_two: |-
   **Uma identidade:**
 
