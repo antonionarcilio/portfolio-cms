@@ -4,6 +4,8 @@
 #
 # Tipos válidos (baseados no Obsidian):
 #   text, number, date, checkbox, multitext, aliases, tags, cssclasses
+#   markdown → texto com marcação Markdown (serializado como string;
+#   deve usar aspas ou block scalar `|-` para não quebrar o YAML)
 #
 # required: true  → campo não pode estar vazio (string vazia, lista vazia)
 # required: false → campo pode estar vazio ou ausente
@@ -78,10 +80,10 @@ content_types:
     aliases: { type: aliases, required: true }
     description: { type: text, required: true }
     excerpt: { type: text, required: true }
-    objective: { type: text, required: true }
-    what_i_built: { type: text, required: true }
-    challenge: { type: text, required: true }
-    result: { type: text, required: true }
+    objective: { type: markdown, required: true }
+    what_i_built: { type: markdown, required: true }
+    challenge: { type: markdown, required: true }
+    result: { type: markdown, required: true }
     expertise_area: { type: text, required: true }
     company: { type: multitext, required: true }
     start: { type: date, required: true }

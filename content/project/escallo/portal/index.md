@@ -12,7 +12,8 @@ description: |-
 
   Também trabalhei na **otimização da comunicação com a API**, reduzindo requisições redundantes por meio da consolidação de queries GraphQL em uma única chamada por página.
 excerpt: Plataforma que centraliza autenticação e controle de acesso às soluções da empresa. Atuei no frontend desde a concepção, evoluindo funcionalidades, Design System, UI/UX e performance.
-objective: Centralizar o acesso às diferentes soluções do ecossistema da empresa, oferecendo aos clientes uma experiência unificada de autenticação, acesso e gerenciamento de permissões. Ao longo da evolução do produto, também passou a incorporar soluções internas utilizadas por diferentes áreas da empresa.
+objective: |-
+  **Centralizar o acesso às diferentes soluções do ecossistema da empresa**, oferecendo aos clientes uma *experiência unificada* de **autenticação, acesso e gerenciamento de permissões**. Ao longo da evolução do produto, também passou a incorporar soluções internas utilizadas por diferentes áreas da empresa.
 what_i_built: |-
   Atuei, em parceria com outro desenvolvedor, na implementação do produto desde sua concepção inicial, como **desenvolvedor frontend** na construção e evolução das principais funcionalidades. Com a evolução do produto, também assumi responsabilidades relacionadas a **UI/UX e design de interfaces**.
 

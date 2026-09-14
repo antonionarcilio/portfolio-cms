@@ -75,19 +75,19 @@ export interface ExperienceFields {
 export interface ProjectFields {
   aliases: string | string[];
   carrousel?: string | string[];
-  challenge: string;
+  challenge: string;  // Markdown
   company: string | string[];
   cover?: string;
   description: string;
   end?: string;  // YYYY-MM-DD
   excerpt: string;
   expertise_area: string;
-  objective: string;
-  result: string;
+  objective: string;  // Markdown
+  result: string;  // Markdown
   stack: string | string[];
   start: string;  // YYYY-MM-DD
   url?: string;
-  what_i_built: string;
+  what_i_built: string;  // Markdown
 }
 
 export interface SeniorityFields {

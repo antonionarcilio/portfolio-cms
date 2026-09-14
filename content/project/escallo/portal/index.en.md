@@ -13,7 +13,8 @@ description: |-
 
   I also worked on **optimizing communication with the API**, reducing redundant requests by consolidating GraphQL queries into a single call per page.
 excerpt: Platform that centralizes authentication and access control for the company's solutions. I worked on the frontend from conception, evolving features, Design System, UI/UX, and performance.
-objective: Centralize access to the different solutions in the company's ecosystem, offering clients a unified experience of authentication, access, and permission management. Throughout the product's evolution, it also came to incorporate internal solutions used by different areas of the company.
+objective: |-
+  **Centralize access to the different solutions in the company's ecosystem**, offering clients a *unified experience* of **authentication, access, and permission management**. Throughout the product's evolution, it also came to incorporate internal solutions used by different areas of the company.
 what_i_built: |-
   In partnership with another developer, I worked on implementing the product from its initial conception, as a **frontend developer** in building and evolving the main features. As the product evolved, I also took on responsibilities related to **UI/UX and interface design**.
 
