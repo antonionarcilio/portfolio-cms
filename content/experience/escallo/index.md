@@ -7,15 +7,15 @@ about: |-
 
   Seu principal produto, o **Escallo**, combina automação, inteligência artificial e análise de dados para tornar as operações de atendimento mais organizadas, eficientes e integradas, ajudando empresas a melhorar a experiência e o relacionamento com seus clientes.
 description: |-
-  **Atuei como desenvolvedor frontend** participando do desenvolvimento e evolução de aplicações web internas, plataformas institucionais e blogs corporativos.
+  Atuei como **desenvolvedor frontend** no desenvolvimento e evolução de aplicações web do ecossistema da empresa, trabalhando em produtos desenvolvidos sob medida para clientes, aplicações internas, além de sites e blogs institucionais. Atuei tanto na manutenção de sistemas já em produção quanto no desenvolvimento de novos produtos, desde funcionalidades específicas até aplicações em que fui a principal pessoa responsável pelo frontend.
 
-  Fui **responsável por** *transformar protótipos em interfaces funcionais, modernas e responsivas, mantendo alinhamento com o Design System da empresa e foco constante na experiência do usuário.*
+  Comecei com uma atuação mais focada na **implementação de interfaces e funcionalidades** e, ao longo do tempo, passei a participar também da definição de fluxos, prototipação e desenvolvimento de produtos desde o início. Em alguns projetos, participei das discussões com Produto, Design e outras áreas para entender o problema, avaliar alternativas e definir como a solução seria implementada.
 
-  Durante esse período, trabalhei no desenvolvimento de aplicações utilizando tecnologias como Next.js, React e TypeScript, além da manutenção e evolução de produtos legados em JQuery e sites/blogs institucionais em WordPress.
+  Também passei a atuar mais diretamente com **UI/UX e Design System**, criando protótipos, reformulando interfaces, propondo mudanças de fluxo e participando de revisões com o time de Design. Essas decisões envolviam desde a organização das telas até questões de usabilidade, acessibilidade, feedback visual e redução de etapas.
 
-  Também participei da criação de protótipos e definições de interface, contribuindo diretamente na organização de fluxos, usabilidade e padronização visual dos produtos.
+  Além da implementação, passei a assumir problemas que exigiam **investigação e tomada de decisão técnica**. Trabalhei, por exemplo, na implementação de regras de acesso no frontend quando a API não oferecia esse controle, investiguei problemas que aconteciam somente em produção e refatorei aplicações existentes, incluindo sistemas legados. Também desenvolvi soluções reutilizáveis quando identifiquei problemas que se repetiam em diferentes projetos, como inconsistências de interface e retrabalho na implementação de componentes.
 
-  Além do desenvolvimento frontend, atuei em integrações com APIs, ferramentas de marketing e monitoramento, implementação de funcionalidades customizadas, correção de bugs e evolução contínua das aplicações conforme novas demandas de negócio surgiam.
+  Minha atuação permaneceu focada em **frontend**, mas foi ganhando mais autonomia ao longo do tempo: de implementar funcionalidades definidas para também participar das decisões de interface, propor soluções, investigar problemas e assumir o frontend de produtos desde o desenvolvimento inicial até sua manutenção e evolução em produção.
 excerpt: Desenvolvedor frontend em aplicações web internas, plataformas institucionais e blogs corporativos, transformando protótipos em interfaces modernas e responsivas alinhadas ao Design System. Experiência com Next.js, React, TypeScript, WordPress, integrações com APIs e marketing, focado em UX e usabilidade.
 site: https://escallo.com.br
 linkedin: https://www.linkedin.com/company/escalloconversas/about/

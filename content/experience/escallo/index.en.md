@@ -7,15 +7,15 @@ about: |-
 
   Its main product, **Escallo**, combines automation, artificial intelligence, and data analytics to make customer service operations more organized, efficient, and integrated, helping companies improve their customers' experience and relationships.
 description: |-
-  I worked as a frontend developer, participating in the development and evolution of internal web applications, institutional platforms, and corporate blogs.
+  I worked as a **frontend developer**, developing and evolving web applications across the company's ecosystem—from custom-built products for clients to internal applications, as well as institutional sites and blogs. I worked both on maintaining systems already in production and on developing new products, from specific features to applications where I was the main person responsible for the frontend.
 
-  I was responsible for turning prototypes into functional, modern, and responsive interfaces, maintaining alignment with the company's Design System and a constant focus on user experience.
+  I started with a focus on **implementing interfaces and features** and, over time, began taking part in defining flows, prototyping, and developing products from the ground up. In some projects, I joined discussions with Product, Design, and other teams to understand the problem, evaluate alternatives, and define how the solution would be implemented.
 
-  During this period, I worked on developing applications using technologies such as Next.js, React, and TypeScript, in addition to maintaining and evolving legacy products in jQuery and institutional sites/blogs on WordPress.
+  I also became more directly involved with **UI/UX and the Design System**, creating prototypes, redesigning interfaces, proposing flow changes, and participating in reviews with the Design team. These decisions ranged from screen organization to usability, accessibility, visual feedback, and reducing the number of steps in a flow.
 
-  I also participated in creating prototypes and interface definitions, contributing directly to organizing flows, usability, and visual standardization of the products.
+  Beyond implementation, I started taking on problems that required **investigation and technical decision-making**. For example, I implemented access rules on the frontend when the API didn't provide that control, investigated issues that only happened in production, and refactored existing applications, including legacy systems. I also built reusable solutions when I identified problems that repeated across different projects, such as interface inconsistencies and rework in component implementation.
 
-  Beyond frontend development, I worked on integrations with APIs, marketing and monitoring tools, implementing custom features, bug fixing, and continuous application evolution as new business demands arose.
+  My work remained focused on **frontend**, but it gained more autonomy over time: from implementing defined features to also taking part in interface decisions, proposing solutions, investigating problems, and owning the frontend of products from initial development through their ongoing maintenance and evolution in production.
 excerpt: Frontend developer working on internal web applications, institutional platforms, and corporate blogs, turning prototypes into modern, responsive interfaces aligned with the Design System. Experience with Next.js, React, TypeScript, WordPress, API integrations, and marketing tools, focused on UX and usability.
 site: https://escallo.com.br
 linkedin: https://www.linkedin.com/company/escalloconversas/about/
