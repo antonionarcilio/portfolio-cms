@@ -15,25 +15,31 @@ objective: |-
 what_i_built: |-
   I identified the need to centralize shared components and **took the initiative to create the library**, being responsible for its implementation, evolution, and maintenance.
 
-  I developed reusable components for different project needs, from basic elements like **buttons and checkboxes** to more complex components like **Picklists/Transfers** and inputs with **dynamic masks** for formats such as CPF, CNPJ, and phone numbers, among others.
+  I developed reusable components for different project needs, from basic elements like **buttons and checkboxes** to more complex components like **Picklists/Transfers** and inputs with **dynamic masks** for formats such as CPF, CNPJ, and phone numbers.
 
   I was also responsible for **API documentation of the components**, describing their properties, behaviors, and usage patterns to facilitate adoption and maintenance by consuming projects.
 
-  Beyond component development, I worked on the necessary structure for **library packaging and distribution**, enabling it to be consumed privately by different company projects.
+  Beyond the functional implementation, I worked on defining **transitions, animations, and microinteractions** for the components, seeking to create visually appealing behaviors and a distinct identity for the library. I also optimized these animations to balance visual quality with interface performance.
 
-  I also handled maintenance and evolution of the library, performing fixes on **logic, behavior, and styles**, as well as bundle optimizations to reduce the final package size and make installation and updates more efficient.
+  Another important focus was the **experience on mobile devices**. I adapted components and behaviors for different screen sizes, seeking to bring the usage experience closer to what users find in native applications. Among the implemented behaviors were patterns such as **modals, popups, and dropdowns that, on smaller screens, took on behavior similar to drawers sliding up from the bottom of the screen**, along with other specific adaptations for touch interaction.
+
+  I also worked on the structure needed for **private packaging and distribution of the library**, allowing it to be consumed by the different company projects.
 challenge: |-
   One of the main challenges was defining a way to **distribute the library privately**. Since the components were part of internal company solutions, making them publicly available would not be appropriate. I researched available free alternatives and evaluated different possibilities before choosing **GitLab Registry** as the solution for private package storage and distribution.
 
   Another challenge was understanding the entire process required to **create and package a component library**, including choosing an adequate bundling solution. Since I did not yet have experience with this type of architecture, I studied available alternatives, mainly considering widely used solutions with a lower learning curve, in order to implement the library quickly.
 
-  I also faced challenges related to **making the library available in development and especially production environments**. Since consuming projects ran on different VPSs and used Docker, I needed to find a way to obtain the private library **during the application dependency installation step**, ensuring the package was correctly available in the production environment build process.
+  I also faced challenges related to **making the library available in production environments**. Since consuming projects ran on different VPSs and used Docker, I needed to find a way to obtain the private library **during the application dependency installation step**, ensuring the package was correctly available during the production environment build process.
 
-  This process required a deeper study of the dependency installation flow in applications run with Docker and the proper way to authenticate and make a private package available during this process, ensuring the library could be consumed without compromising application distribution.
+  This process required a deeper study of the dependency installation flow in applications run with Docker and the proper way to authenticate and make a private package available during that process.
 
-  Another challenge was **optimizing the library so the final bundle would be as small as possible**. I analyzed the package structure and packaging process, seeking to reduce unnecessary content distributed to consuming projects and making library installation and updates more efficient.
+  Another challenge was **optimizing the library so the final bundle would be as small as possible**, analyzing its structure and the packaging process to reduce unnecessary content and make library installation and updates more efficient.
 
-  All these challenges had to be solved in a context of **high demand at the beginning of the project**, requiring agility in research, decision-making, and implementation, without losing sight of the need to create a solution that could be reused and maintained over time.
+  There were also challenges related to creating **consistent and performant animations and transitions**. It was necessary to consider duration, behavior, fluidity, and impact on performance so that the microinteractions made the components more appealing without harming the user experience.
+
+  In the mobile context, the challenge was adapting components originally designed for traditional web interfaces so they presented **more natural behaviors on smaller screens and touch interactions**. This involved rethinking how elements such as modals, dropdowns, and popups were presented and interacted with users, seeking an experience closer to the patterns mobile device users are already accustomed to.
+
+  All these challenges had to be solved in a context of **high demand at the beginning of the project**, requiring agility in research, decision-making, and implementation, without losing sight of the need to create a reusable and sustainable solution.
 result: |-
   The creation of the library centralized shared components into a **single codebase**, eliminating the need to maintain duplicated implementations across different applications.
 
@@ -41,9 +47,13 @@ result: |-
 
   API documentation established a reference for **component properties, behaviors, and usage patterns**, facilitating consumption and maintenance.
 
-  Optimizations in the packaging process reduced the **final library size**, making installation and updates more efficient in consuming projects.
+  The definition of **distinct animations, transitions, and microinteractions** contributed to creating a more consistent visual and behavioral identity for the components, making interfaces more appealing without sacrificing performance concerns.
 
-  As a result, the library became a **reusable solution for different company projects**, providing greater consistency between applications, reducing code duplication, and making component maintenance and evolution more centralized.
+  The mobile adaptations provided an experience better suited to **touch interactions and smaller screens**, incorporating behavior patterns that made components such as modals, dropdowns, and popups more natural in that context.
+
+  The optimizations made in the packaging process also reduced the **final library size**, making its installation and updates more efficient in consuming projects.
+
+  As a result, the library became a **reusable solution for different company projects**, providing greater visual and behavioral consistency between applications, reducing code duplication, and centralizing component evolution.
 company: "[[content/experience/escallo/index.en.md|Escallo]]"
 expertise_area: Frontend
 url:
