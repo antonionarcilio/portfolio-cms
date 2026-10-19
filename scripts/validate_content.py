@@ -69,16 +69,18 @@ def get_staged_files() -> set[str]:
     return {line.strip() for line in result.stdout.splitlines() if line.strip()}
 
 
-def get_all_content_files() -> set[str]:
-    """Return all tracked files under content/ via the git index."""
+def get_all_tracked_files() -> tuple[set[str], set[str]]:
+    """Return (full_paths, basenames) of all tracked files in the repo."""
     result = subprocess.run(
-        ["git", "ls-files", "--cached", "content/"],
+        ["git", "ls-files", "--cached"],
         capture_output=True, text=True, cwd=REPO_ROOT,
     )
     if result.returncode != 0:
         print("Error: git ls-files failed", file=sys.stderr)
         sys.exit(1)
-    return {line.strip() for line in result.stdout.splitlines() if line.strip()}
+    paths = {line.strip() for line in result.stdout.splitlines() if line.strip()}
+    basenames = {Path(p).name for p in paths}
+    return paths, basenames
 
 
 def classify_path(rel_path: str):
@@ -122,9 +124,13 @@ def classify_path(rel_path: str):
 
 
 def resolve_wikilink_target(target: str) -> str:
-    """Normalise a wikilink target to a repo-relative file path."""
+    """Normalise a wikilink target to a repo-relative file path.
+
+    Targets that already carry a file extension (e.g. .png, .jpg) are kept
+    as-is; targets without an extension get .md appended (Obsidian default).
+    """
     target = target.split("|")[0].strip()
-    if not target.endswith(".md"):
+    if not Path(target).suffix:
         target += ".md"
     return target
 
@@ -281,7 +287,11 @@ def validate_bilingual(rel_path: str, staged: set[str]) -> None:
 
 
 def validate_frontmatter(
-    rel_path: str, schema: dict, types_schema: dict, all_files: set[str]
+    rel_path: str,
+    schema: dict,
+    types_schema: dict,
+    all_files: set[str],
+    all_basenames: set[str],
 ) -> None:
     """Rule 5-9: parse YAML, check required fields, validate types, validate
     wikilinks."""
@@ -378,7 +388,10 @@ def validate_frontmatter(
         links = _extract_wikilinks(field_value)
         for target in links:
             resolved = resolve_wikilink_target(target)
-            if resolved not in all_files:
+            resolved_name = Path(resolved).name
+            # Accept match by full path or by bare filename (Obsidian fuzzy
+            # resolution for assets like images that live outside content/).
+            if resolved not in all_files and resolved_name not in all_basenames:
                 errors.append(
                     f"{rel_path}: field '{field_name}' wikilink "
                     f"target '{target}' does not exist "
@@ -394,7 +407,7 @@ def main() -> int:
     schema = load_yaml(SCHEMA_PATH)
     types_schema = load_yaml(TYPES_SCHEMA_PATH)
     staged = get_staged_files()
-    all_files = get_all_content_files()
+    all_files, all_basenames = get_all_tracked_files()
 
     content_staged = {f for f in staged if f.startswith("content/")}
 
@@ -402,7 +415,9 @@ def main() -> int:
         validate_structure(rel_path, schema)
         validate_bilingual(rel_path, content_staged)
         if rel_path.endswith(".md"):
-            validate_frontmatter(rel_path, schema, types_schema, all_files)
+            validate_frontmatter(
+                rel_path, schema, types_schema, all_files, all_basenames
+            )
 
     if errors:
         print(

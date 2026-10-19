@@ -14,6 +14,7 @@ allowed_types:
   - project
   - seniority
   - skill
+  - team-member
   - technology
 
 fields:
@@ -105,6 +106,11 @@ fields:
       - description
       - icon
       - technologies
+
+  team-member:
+    required:
+      - name
+      - avatar
 
   technology:
     required:

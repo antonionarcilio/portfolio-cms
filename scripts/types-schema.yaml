@@ -102,6 +102,12 @@ content_types:
     icon: { type: text, required: true }
     technologies: { type: multitext, required: true }
 
+  team-member:
+    name: { type: multitext, required: true }
+    expertise_area: { type: multitext, required: false }
+    linkedin: { type: text, required: false }
+    avatar: { type: text, required: true }
+
   technology:
     aliases: { type: aliases, required: true }
     description: { type: text, required: true }

@@ -3,7 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "expertise_area": "text",
+    "expertise_area": "multitext",
     "site": "text",
     "year": "number",
     "technologies": "multitext",
@@ -46,6 +46,9 @@
     "what_i_built": "text",
     "challenge": "text",
     "result": "text",
-    "carrousel": "multitext"
+    "carrousel": "multitext",
+    "name": "multitext",
+    "avatar": "text",
+    "linkedin": "text"
   }
 }

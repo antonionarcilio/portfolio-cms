@@ -101,6 +101,13 @@ export interface SkillFields {
   technologies: string | string[];
 }
 
+export interface TeamMemberFields {
+  avatar: string;
+  expertise_area?: string | string[];
+  linkedin?: string;
+  name: string | string[];
+}
+
 export interface TechnologyFields {
   aliases: string | string[];
   description: string;
