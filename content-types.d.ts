@@ -51,6 +51,7 @@ export interface EducationFields {
   degree_type: string;
   description: string;
   institution: string;
+  location?: string;
   year: number;
 }
 

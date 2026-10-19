@@ -57,6 +57,7 @@ content_types:
     description: { type: text, required: true }
     degree_type: { type: text, required: true }
     institution: { type: text, required: true }
+    location: { type: text, required: false }
     year: { type: number, required: true }
 
   experience:
