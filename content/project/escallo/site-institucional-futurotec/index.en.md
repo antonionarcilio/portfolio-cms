@@ -43,5 +43,13 @@ stack:
   - "[[content/technology/google-analytics/index.en|Google Analytics]]"
   - "[[content/technology/google-tag-manager/index.en|Google Tag Manager]]"
   - "[[content/technology/php/index.en|PHP]]"
+team:
+  - "[[content/team-member/elis-souza/index.en|Elis Souza]]"
+  - "[[content/team-member/ken-matsumoto/index.en|Ken Omura]]"
+  - "[[content/team-member/antonio-mascarenhas/index.en|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/product-manager/index.en|Product Manager]]"
+  - "[[content/team-role/product-design/index.en|Product Design]]"
+  - "[[content/team-role/frontend-developer/index.en|Frontend Developer]]"
 ---
 

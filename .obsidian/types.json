@@ -49,6 +49,8 @@
     "carrousel": "multitext",
     "name": "multitext",
     "avatar": "text",
-    "linkedin": "text"
+    "linkedin": "text",
+    "team": "multitext",
+    "team_roles": "multitext"
   }
 }

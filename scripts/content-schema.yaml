@@ -15,6 +15,7 @@ allowed_types:
   - seniority
   - skill
   - team-member
+  - team-role
   - technology
 
 fields:
@@ -95,6 +96,8 @@ fields:
       - company
       - start
       - stack
+      - team
+      - team_roles
 
   seniority:
     required:
@@ -109,8 +112,13 @@ fields:
 
   team-member:
     required:
-      - name
+      - aliases
       - avatar
+
+  team-role:
+    required:
+      - aliases
+      - description
 
   technology:
     required:

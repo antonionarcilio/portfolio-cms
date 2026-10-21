@@ -51,4 +51,16 @@ stack:
   - "[[content/technology/docker/index|Docker]]"
   - "[[content/technology/figma/index|Figma]]"
   - "[[content/technology/graphql/index|GraphQL]]"
+team:
+  - "[[content/team-member/breno-alexsandro/index|Breno Alexsandro]]"
+  - "[[content/team-member/carolina-procopio/index|Carolina Procopio]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+  - "[[content/team-member/arthur-zatta/index|Arthur Zatta]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/developer-manager/index|Developer Manager]]"
+  - "[[content/team-role/product-design/index|Product Design]]"
+  - "[[content/team-role/product-design/index|Product Design]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
 ---

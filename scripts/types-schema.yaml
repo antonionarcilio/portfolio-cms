@@ -89,6 +89,8 @@ content_types:
     company: { type: multitext, required: true }
     start: { type: date, required: true }
     stack: { type: multitext, required: true }
+    team: { type: multitext, required: false }
+    team_roles: { type: multitext, required: false }
     url: { type: text, required: false }
     end: { type: date, required: false }
     cover: { type: text, required: false }
@@ -104,10 +106,14 @@ content_types:
     technologies: { type: multitext, required: true }
 
   team-member:
-    name: { type: multitext, required: true }
+    aliases: { type: aliases, required: true }
     expertise_area: { type: multitext, required: false }
     linkedin: { type: text, required: false }
     avatar: { type: text, required: true }
+
+  team-role:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
 
   technology:
     aliases: { type: aliases, required: true }

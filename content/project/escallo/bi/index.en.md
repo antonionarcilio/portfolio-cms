@@ -50,4 +50,14 @@ stack:
   - "[[content/technology/redux/index.en|Redux]]"
   - "[[content/technology/material-ui/index.en|Material UI]]"
   - "[[content/technology/graphql/index.en|GraphQL]]"
+team:
+  - "[[content/team-member/adonhiram-correia/index.en|Adonhiram Correia]]"
+  - "[[content/team-member/breno-alexsandro/index.en|Breno Alexsandro]]"
+  - "[[content/team-member/thalles-neves/index.en|Thalles Neves]]"
+  - "[[content/team-member/antonio-mascarenhas/index.en|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/product-manager/index.en|Product Manager]]"
+  - "[[content/team-role/backend-developer/index.en|Backend Developer]]"
+  - "[[content/team-role/frontend-developer/index.en|Frontend Developer]]"
+  - "[[content/team-role/frontend-developer/index.en|Frontend Developer]]"
 ---

@@ -1,10 +1,10 @@
 ---
-name:
+aliases:
   - Breno Alexsandro
 expertise_area:
-  - Developer Manager
-  - Product Owner
-  - Backend Developer
+  - "[[content/team-role/developer-manager/index.en|Developer Manager]]"
+  - "[[content/team-role/product-owner/index.en|Product Owner]]"
+  - "[[content/team-role/backend-developer/index.en|Backend Developer]]"
 linkedin: https://www.linkedin.com/in/breno-alexsandro-ba62b626/
 avatar: "[[breno-alexsandro.png]]"
 ---

@@ -10,6 +10,7 @@ Validation rules (all checked against staged files only):
   6. Field types match types-schema.yaml
   7. No unknown fields (not in types-schema.yaml)
   8. Required fields (in types-schema) are not empty
+  8b. project `team` and `team_roles` lists have the same length
   9. Wikilink targets correspond to existing tracked files
 
 Exit code 0 = valid, 1 = invalid.
@@ -133,6 +134,20 @@ def resolve_wikilink_target(target: str) -> str:
     if not Path(target).suffix:
         target += ".md"
     return target
+
+
+def wikilink_candidates(target: str) -> list[str]:
+    """Possible repo-relative paths a wikilink may resolve to.
+
+    Links to EN entries are commonly written without the final `.md`
+    (e.g. `content/about/index.en`), which must resolve to
+    `content/about/index.en.md`. Both forms are accepted.
+    """
+    resolved = resolve_wikilink_target(target)
+    candidates = [resolved]
+    if not resolved.endswith(".md"):
+        candidates.append(resolved + ".md")
+    return candidates
 
 
 def _extract_wikilinks(value):
@@ -383,19 +398,38 @@ def validate_frontmatter(
                 f"must not be empty"
             )
 
+    # Rule 8b: project 'team' and 'team_roles' must align positionally
+    if content_type == "project" and "team" in fm and "team_roles" in fm:
+        def _count(value) -> int:
+            if isinstance(value, list):
+                return len(value)
+            if isinstance(value, str) and value.strip():
+                return 1
+            return 0
+
+        n_members, n_roles = _count(fm["team"]), _count(fm["team_roles"])
+        if n_members != n_roles:
+            errors.append(
+                f"{rel_path}: 'team' has {n_members} entries but "
+                f"'team_roles' has {n_roles} — both lists must have the "
+                f"same length (they map to each other by position)"
+            )
+
     # Rule 9: Wikilink validation
     for field_name, field_value in fm.items():
         links = _extract_wikilinks(field_value)
         for target in links:
-            resolved = resolve_wikilink_target(target)
-            resolved_name = Path(resolved).name
+            candidates = wikilink_candidates(target)
             # Accept match by full path or by bare filename (Obsidian fuzzy
             # resolution for assets like images that live outside content/).
-            if resolved not in all_files and resolved_name not in all_basenames:
+            found = any(c in all_files for c in candidates) or any(
+                Path(c).name in all_basenames for c in candidates
+            )
+            if not found:
                 errors.append(
                     f"{rel_path}: field '{field_name}' wikilink "
                     f"target '{target}' does not exist "
-                    f"(expected '{resolved}' in repository)"
+                    f"(expected '{candidates[0]}' in repository)"
                 )
 
 

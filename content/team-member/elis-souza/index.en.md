@@ -1,8 +1,8 @@
 ---
-name:
+aliases:
   - Elis Souza
 expertise_area:
-  - Product Manager
+  - "[[content/team-role/product-manager/index.en|Product Manager]]"
 linkedin: https://www.linkedin.com/in/elis-souza/
 avatar: "[[elis-souza.png]]"
 ---

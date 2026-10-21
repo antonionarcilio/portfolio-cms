@@ -6,8 +6,7 @@ description: |-
 
   Atuei no desenvolvimento e manutenção do website institucional do Escallo, implementando funcionalidades customizadas e integrações com serviços externos como RD Station. Desenvolvi fluxos de conversão de leads com validação de segurança utilizando Cloudflare Turnstile antes do envio dos dados à API do RD Station, além de integrações personalizadas no Elementor para mapeamento dinâmico de campos customizados cadastrados no RD Station por meio de Dynamic Tags. Também atuei na implementação de rastreamento de eventos (gtag), otimizações de performance, responsividade, Core Web Vitals e melhorias voltadas à experiência de navegação do usuário.
 excerpt: Website institucional com performance, SEO técnico e integrações de marketing, com validação de leads e rastreamento de eventos.
-objective: |-
-  **Fortalecer a presença digital da empresa** por meio de um site institucional com foco em **performance, acessibilidade, SEO e geração de leads**, oferecendo uma experiência consistente em diferentes dispositivos e idiomas e possibilitando a *integração com ferramentas utilizadas pelas áreas de marketing e vendas*.
+objective: "**Fortalecer a presença digital da empresa** por meio de um site institucional com foco em **performance, acessibilidade, SEO e geração de leads**, oferecendo uma experiência consistente em diferentes dispositivos e idiomas e possibilitando a *integração com ferramentas utilizadas pelas áreas de marketing e vendas*."
 what_i_built: |-
   Atuei na **manutenção e evolução** do site institucional, trabalhando tanto na *versão anterior quanto na atual*. Em ambas, participei de atualizações de layout, melhorias de interface, responsividade e implementação de **funcionalidades customizadas**.
 
@@ -51,5 +50,11 @@ stack:
   - "[[content/technology/google-analytics/index|Google Analytics]]"
   - "[[content/technology/google-tag-manager/index|Google Tag Manager]]"
   - "[[content/technology/php/index|PHP]]"
+team:
+  - "[[content/team-member/elis-souza/index|Elis Souza]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/product-manager/index|Product Manager]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
 ---
 

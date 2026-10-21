@@ -71,5 +71,9 @@ stack:
   - "[[content/technology/css-modules/index.en|CSS Modules]]"
   - "[[content/technology/rollup/index.en|Rollup]]"
   - "[[content/technology/framer-motion/index.en|Framer Motion]]"
+team:
+  - "[[content/team-member/antonio-mascarenhas/index.en|Antônio Mascarenhas]]"
+team_roles:
+  - "Creator & Developer"
 ---
 
