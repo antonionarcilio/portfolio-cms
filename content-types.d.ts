@@ -87,6 +87,8 @@ export interface ProjectFields {
   result: string;  // Markdown
   stack: string | string[];
   start: string;  // YYYY-MM-DD
+  team: string | string[];
+  team_roles: string | string[];
   url?: string;
   what_i_built: string;  // Markdown
 }
@@ -103,10 +105,15 @@ export interface SkillFields {
 }
 
 export interface TeamMemberFields {
+  aliases: string | string[];
   avatar: string;
   expertise_area?: string | string[];
   linkedin?: string;
-  name: string | string[];
+}
+
+export interface TeamRoleFields {
+  aliases: string | string[];
+  description: string;
 }
 
 export interface TechnologyFields {

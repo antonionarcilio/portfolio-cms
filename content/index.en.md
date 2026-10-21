@@ -1,7 +1,7 @@
 ---
 first_name: Antônio
 last_name: Mascarenhas
-cover: https://res.cloudinary.com/do39nkgr5/image/upload/v1784758765/antonio-pixel-art-250x250_jjstea.jpg
+cover: "[[antonio-pixel-art-250x250.jpeg]]"
 expertise_area: Frontend
 bio: "[[content/about/index.en|Bio]]"
 seniority: "[[content/seniority/mid/index.en|Mid-level]]"
@@ -9,7 +9,8 @@ company:
 location: São Luís, MA - Brazil
 highlight_text: Obsession with quality in every detail.
 experience_month: 64.8
-experience_company: "[[content/experience/escallo/index.en|Escallo]]"
+experience_company:
+  - "[[content/experience/escallo/index.en|Futurotec | Escallo]]"
 contacts:
   - "[[content/contact/linkedin/index.en|LinkedIn]]"
   - "[[content/contact/github/index.en|GitHub]]"
