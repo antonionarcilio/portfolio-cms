@@ -42,6 +42,13 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787956528/blog-escallo-04_jq59bd.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787956528/blog-escallo-05_ezulng.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787956528/blog-escallo-06_udcgfv.png
+gallery:
+  - "[[assets/mockups/blog-escallo-01.png]]"
+  - "[[assets/mockups/blog-escallo-02.png]]"
+  - "[[assets/mockups/blog-escallo-03.png]]"
+  - "[[assets/mockups/blog-escallo-04.png]]"
+  - "[[assets/mockups/blog-escallo-05.png]]"
+  - "[[assets/mockups/blog-escallo-06.png]]"
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"
   - "[[content/technology/elementor-pro/index|Elementor PRO]]"

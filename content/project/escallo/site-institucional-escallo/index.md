@@ -42,6 +42,12 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787959904/escallo-02_tlgt4u.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787959904/escallo-03_k0ddyr.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787959905/escallo-04_ctepfg.png
+gallery:
+  - "[[assets/mockups/escallo-01.png]]"
+  - "[[assets/mockups/escallo-02.png]]"
+  - "[[assets/mockups/escallo-03.png]]"
+  - "[[assets/mockups/escallo-04.png]]"
+  - "[[assets/mockups/escallo-05.png]]"
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"
   - "[[content/technology/elementor-pro/index|Elementor PRO]]"

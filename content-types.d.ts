@@ -83,6 +83,7 @@ export interface ProjectFields {
   end?: string;  // YYYY-MM-DD
   excerpt: string;
   expertise_area: string;
+  gallery?: string | string[];
   objective: string;  // Markdown
   result: string;  // Markdown
   stack: string | string[];

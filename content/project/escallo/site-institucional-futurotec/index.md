@@ -34,6 +34,12 @@ start: 2022-12-05
 end: 2023-04-28
 cover:
 carrousel:
+gallery:
+  - "[[assets/mockups/ftec-01.png]]"
+  - "[[assets/mockups/ftec-02.png]]"
+  - "[[assets/mockups/ftec-03.png]]"
+  - "[[assets/mockups/ftec-04.png]]"
+  - "[[assets/mockups/ftec-05.png]]"
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"
   - "[[content/technology/elementor-pro/index|Elementor PRO]]"

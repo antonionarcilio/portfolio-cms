@@ -41,6 +41,10 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086887/MacBook_Air_-_3_myn96j.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086887/MacBook_Air_-_2_zctje8.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086886/MacBook_Air_-_1_dpsffp.png
+gallery:
+  - "[[assets/mockups/portal-screen-01.png]]"
+  - "[[assets/mockups/portal-screen-02.png]]"
+  - "[[assets/mockups/portal-screen-03.png]]"
 stack:
   - "[[content/technology/typescript/index|TypeScript]]"
   - "[[content/technology/nextjs/index|Next.js]]"

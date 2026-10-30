@@ -95,6 +95,7 @@ content_types:
     end: { type: date, required: false }
     cover: { type: text, required: false }
     carrousel: { type: multitext, required: false }
+    gallery: { type: multitext, required: false }
 
   seniority:
     aliases: { type: aliases, required: true }

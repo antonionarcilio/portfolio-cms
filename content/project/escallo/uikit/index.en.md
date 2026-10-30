@@ -64,6 +64,10 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789398493/MacBook_Air_-_14_cvwt7g.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789398495/MacBook_Air_-_15_ht2hr0.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789398494/MacBook_Air_-_16_k4jt8r.png
+gallery:
+  - "[[assets/mockups/uikit-01.png]]"
+  - "[[assets/mockups/uikit-02.png]]"
+  - "[[assets/mockups/uikit-03.png]]"
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
   - "[[content/technology/react/index.en|React]]"

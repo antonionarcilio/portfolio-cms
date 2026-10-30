@@ -43,6 +43,10 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789240415/MacBook_Air_-_11_u9jjpm.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789240415/MacBook_Air_-_12_cfsz3y.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789240415/MacBook_Air_-_13_xzscva.png
+gallery:
+  - "[[assets/mockups/bi-screen-01.png]]"
+  - "[[assets/mockups/bi-screen-02.png]]"
+  - "[[assets/mockups/bi-screen-03.png]]"
 stack:
   - "[[content/technology/javascript/index.en|JavaScript]]"
   - "[[content/technology/react/index.en|React]]"

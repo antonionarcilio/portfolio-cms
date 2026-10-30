@@ -35,6 +35,10 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787957030/blog-ftec-03_lyuo3a.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787957031/blog-ftec-04_skzqfw.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787957031/blog-ftec-05_xyfrys.png
+gallery:
+  - "[[assets/mockups/blog-ftec-01.png]]"
+  - "[[assets/mockups/blog-ftec-02.png]]"
+  - "[[assets/mockups/blog-ftec-03.png]]"
 stack:
   - "[[content/technology/wordpress/index.en|WordPress]]"
   - "[[content/technology/elementor-pro/index.en|Elementor PRO]]"

@@ -37,6 +37,10 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789236748/MacBook_Air_-_7_tls2j7.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789236748/MacBook_Air_-_10_bi1wqd.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789236748/MacBook_Air_-_8_usp5t4.png
+gallery:
+  - "[[assets/mockups/bot-studio-screen-01.png]]"
+  - "[[assets/mockups/bot-studio-screen-02.png]]"
+  - "[[assets/mockups/bot-studio-screen-03.png]]"
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
   - "[[content/technology/react/index.en|React]]"

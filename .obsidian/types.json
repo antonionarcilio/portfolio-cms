@@ -47,6 +47,7 @@
     "challenge": "text",
     "result": "text",
     "carrousel": "multitext",
+    "gallery": "multitext",
     "name": "multitext",
     "avatar": "text",
     "linkedin": "text",
