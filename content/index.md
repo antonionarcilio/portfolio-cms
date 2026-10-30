@@ -44,5 +44,4 @@ achievements:
   - "[[content/achievement/conclusao-da-graduacao/index|Conclusão da graduação]]"
   - "[[content/achievement/hello-world/index|Hello world]]"
   - "[[content/achievement/inicio-da-jornada-academica/index|Início da jornada acadêmica]]"
-  - "[[content/achievement/hello-world/index.en|Hello world]]"
 ---
