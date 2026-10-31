@@ -41,6 +41,7 @@ gallery:
   - "[[assets/mockups/bot-studio-screen-01.png]]"
   - "[[assets/mockups/bot-studio-screen-02.png]]"
   - "[[assets/mockups/bot-studio-screen-03.png]]"
+order: 5
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
   - "[[content/technology/react/index.en|React]]"

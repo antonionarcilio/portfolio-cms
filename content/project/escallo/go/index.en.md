@@ -43,6 +43,7 @@ gallery:
   - "[[assets/mockups/go-screen-01.png]]"
   - "[[assets/mockups/go-screen-02.png]]"
   - "[[assets/mockups/go-screen-03.png]]"
+order: 3
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
   - "[[content/technology/nextjs/index.en|Next.js]]"

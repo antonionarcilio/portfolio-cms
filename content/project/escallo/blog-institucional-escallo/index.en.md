@@ -49,6 +49,7 @@ gallery:
   - "[[assets/mockups/blog-escallo-04.png]]"
   - "[[assets/mockups/blog-escallo-05.png]]"
   - "[[assets/mockups/blog-escallo-06.png]]"
+order: 7
 stack:
   - "[[content/technology/wordpress/index.en|WordPress]]"
   - "[[content/technology/elementor-pro/index.en|Elementor PRO]]"

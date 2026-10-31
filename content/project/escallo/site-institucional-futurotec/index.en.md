@@ -41,6 +41,7 @@ gallery:
   - "[[assets/mockups/ftec-03.png]]"
   - "[[assets/mockups/ftec-04.png]]"
   - "[[assets/mockups/ftec-05.png]]"
+order: 8
 stack:
   - "[[content/technology/wordpress/index.en|WordPress]]"
   - "[[content/technology/elementor-pro/index.en|Elementor PRO]]"

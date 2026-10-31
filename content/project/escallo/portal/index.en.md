@@ -47,6 +47,7 @@ gallery:
   - "[[assets/mockups/portal-screen-01.png]]"
   - "[[assets/mockups/portal-screen-02.png]]"
   - "[[assets/mockups/portal-screen-03.png]]"
+order: 1
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
   - "[[content/technology/nextjs/index.en|Next.js]]"

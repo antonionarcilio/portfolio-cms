@@ -47,6 +47,7 @@ gallery:
   - "[[assets/mockups/bi-screen-01.png]]"
   - "[[assets/mockups/bi-screen-02.png]]"
   - "[[assets/mockups/bi-screen-03.png]]"
+order: 2
 stack:
   - "[[content/technology/javascript/index|JavaScript]]"
   - "[[content/technology/react/index|React]]"

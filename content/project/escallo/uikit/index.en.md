@@ -68,6 +68,7 @@ gallery:
   - "[[assets/mockups/uikit-01.png]]"
   - "[[assets/mockups/uikit-02.png]]"
   - "[[assets/mockups/uikit-03.png]]"
+order: 4
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
   - "[[content/technology/react/index.en|React]]"
