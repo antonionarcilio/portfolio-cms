@@ -25,7 +25,9 @@ projects:
   - "[[content/project/escallo/blog-institucional-escallo/index.en|Blog Escallo]]"
   - "[[content/project/escallo/blog-institucional-futurotec/index.en|Blog Futurotec]]"
   - "[[content/project/escallo/site-institucional-futurotec/index.en|Futurotec Site]]"
-educations: "[[content/education/ads/index.en|Systems Analysis and Development]]"
+educations:
+  - "[[content/education/es/index.en|Software Engineering]]"
+  - "[[content/education/ads/index.en|Systems Analysis and Development]]"
 skills:
   - "[[content/skill/frontend/index.en|Frontend]]"
   - "[[content/skill/backend/index.en|Backend]]"

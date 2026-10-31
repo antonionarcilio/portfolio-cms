@@ -18,7 +18,7 @@ content_types:
     seniority: { type: text, required: true }
     contacts: { type: multitext, required: true }
     projects: { type: multitext, required: true }
-    educations: { type: text, required: true }
+    educations: { type: multitext, required: true }
     skills: { type: multitext, required: true }
     achievements: { type: multitext, required: true }
     cover: { type: text, required: false }

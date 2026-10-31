@@ -7,7 +7,7 @@ export interface RootFields {
   company?: string;
   contacts: string | string[];
   cover?: string;
-  educations: string;
+  educations: string | string[];
   experience_company: string | string[];
   experience_month?: number;
   expertise_area: string;
