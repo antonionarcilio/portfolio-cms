@@ -50,8 +50,10 @@ export interface EducationFields {
   aliases: string | string[];
   degree_type: string;
   description: string;
+  end_year?: number;
   institution: string;
   location?: string;
+  start_year?: number;
   year: number;
 }
 

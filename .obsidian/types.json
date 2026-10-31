@@ -6,6 +6,8 @@
     "expertise_area": "multitext",
     "site": "text",
     "year": "number",
+    "start_year": "number",
+    "end_year": "number",
     "technologies": "multitext",
     "contact": "multitext",
     "first_name": "text",
