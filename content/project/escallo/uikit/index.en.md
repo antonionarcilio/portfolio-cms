@@ -79,6 +79,6 @@ stack:
 team:
   - "[[content/team-member/antonio-mascarenhas/index.en|Antônio Mascarenhas]]"
 team_roles:
-  - "Creator & Developer"
+  - "[[content/team-role/design-system-engineer/index.en|Design System Engineer]]"
 ---
 

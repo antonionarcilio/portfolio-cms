@@ -79,7 +79,7 @@ stack:
 team:
   - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
 team_roles:
-  - Creator & Developer
+  - "[[content/team-role/design-system-engineer/index|Design System Engineer]]"
 ---
 dificuldade: 
 - Geração de bundle: após desenvolver o componentes era necessário testa-lo em um projeto real, de modo a identificar possíveis inconsistências. E isso acontecia varias vezes, seja por conflitos de css ao qual determinadas estilizações do componente por algum motivo era/eram sobrescrita ao utilizá-lo no projeto , ou a tipagem não funcionava, com isso as propriedade não aparecia dificultando assim o entendimento e a utilização do componente em desenvolvimento, ou o intellisense do vscode não consegui identificar o caminho correto do componente ao importar retornando assim um erro.
