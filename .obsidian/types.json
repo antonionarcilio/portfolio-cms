@@ -8,6 +8,7 @@
     "year": "number",
     "start_year": "number",
     "end_year": "number",
+    "institution_url": "text",
     "technologies": "multitext",
     "contact": "multitext",
     "first_name": "text",

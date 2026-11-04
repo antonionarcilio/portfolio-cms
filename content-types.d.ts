@@ -52,6 +52,7 @@ export interface EducationFields {
   description: string;
   end_year?: number;
   institution: string;
+  institution_url?: string;
   location?: string;
   start_year?: number;
   year: number;

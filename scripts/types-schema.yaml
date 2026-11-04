@@ -61,6 +61,7 @@ content_types:
     year: { type: number, required: true }
     start_year: { type: number, required: false }
     end_year: { type: number, required: false }
+    institution_url: { type: text, required: false }
 
   experience:
     aliases: { type: aliases, required: true }
