@@ -35,6 +35,11 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787957030/blog-ftec-03_lyuo3a.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787957031/blog-ftec-04_skzqfw.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787957031/blog-ftec-05_xyfrys.png
+gallery:
+  - "[[assets/mockups/blog-ftec-01.png]]"
+  - "[[assets/mockups/blog-ftec-02.png]]"
+  - "[[assets/mockups/blog-ftec-03.png]]"
+order: 9
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"
   - "[[content/technology/elementor-pro/index|Elementor PRO]]"
@@ -42,5 +47,13 @@ stack:
   - "[[content/technology/google-analytics/index|Google Analytics]]"
   - "[[content/technology/google-tag-manager/index|Google Tag Manager]]"
   - "[[content/technology/php/index|PHP]]"
+team:
+  - "[[content/team-member/elis-souza/index|Elis Souza]]"
+  - "[[content/team-member/ken-matsumoto/index|Ken Omura]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/product-manager/index|Product Manager]]"
+  - "[[content/team-role/product-design/index|Product Design]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
 ---
 

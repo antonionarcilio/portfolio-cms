@@ -18,7 +18,7 @@ content_types:
     seniority: { type: text, required: true }
     contacts: { type: multitext, required: true }
     projects: { type: multitext, required: true }
-    educations: { type: text, required: true }
+    educations: { type: multitext, required: true }
     skills: { type: multitext, required: true }
     achievements: { type: multitext, required: true }
     cover: { type: text, required: false }
@@ -57,7 +57,11 @@ content_types:
     description: { type: text, required: true }
     degree_type: { type: text, required: true }
     institution: { type: text, required: true }
+    location: { type: text, required: false }
     year: { type: number, required: true }
+    start_year: { type: number, required: false }
+    end_year: { type: number, required: false }
+    institution_url: { type: text, required: false }
 
   experience:
     aliases: { type: aliases, required: true }
@@ -88,10 +92,14 @@ content_types:
     company: { type: multitext, required: true }
     start: { type: date, required: true }
     stack: { type: multitext, required: true }
+    team: { type: multitext, required: false }
+    team_roles: { type: multitext, required: false }
     url: { type: text, required: false }
     end: { type: date, required: false }
     cover: { type: text, required: false }
     carrousel: { type: multitext, required: false }
+    gallery: { type: multitext, required: false }
+    order: { type: number, required: false }
 
   seniority:
     aliases: { type: aliases, required: true }
@@ -101,6 +109,16 @@ content_types:
     description: { type: text, required: true }
     icon: { type: text, required: true }
     technologies: { type: multitext, required: true }
+
+  team-member:
+    aliases: { type: aliases, required: true }
+    expertise_area: { type: multitext, required: false }
+    linkedin: { type: text, required: false }
+    avatar: { type: text, required: true }
+
+  team-role:
+    aliases: { type: aliases, required: true }
+    description: { type: text, required: true }
 
   technology:
     aliases: { type: aliases, required: true }

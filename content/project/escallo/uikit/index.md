@@ -64,6 +64,11 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789398493/MacBook_Air_-_14_cvwt7g.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789398495/MacBook_Air_-_15_ht2hr0.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789398494/MacBook_Air_-_16_k4jt8r.png
+gallery:
+  - "[[assets/mockups/uikit-01.png]]"
+  - "[[assets/mockups/uikit-02.png]]"
+  - "[[assets/mockups/uikit-03.png]]"
+order: 4
 stack:
   - "[[content/technology/typescript/index|TypeScript]]"
   - "[[content/technology/react/index|React]]"
@@ -71,4 +76,18 @@ stack:
   - "[[content/technology/css-modules/index|CSS Modules]]"
   - "[[content/technology/rollup/index|Rollup]]"
   - "[[content/technology/framer-motion/index|Framer Motion]]"
+team:
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/design-system-engineer/index|Design System Engineer]]"
 ---
+dificuldade: 
+- Geração de bundle: após desenvolver o componentes era necessário testa-lo em um projeto real, de modo a identificar possíveis inconsistências. E isso acontecia varias vezes, seja por conflitos de css ao qual determinadas estilizações do componente por algum motivo era/eram sobrescrita ao utilizá-lo no projeto , ou a tipagem não funcionava, com isso as propriedade não aparecia dificultando assim o entendimento e a utilização do componente em desenvolvimento, ou o intellisense do vscode não consegui identificar o caminho correto do componente ao importar retornando assim um erro.
+  
+- distribuição privada: ser possível instalar a lib com apenas um npm|yarn add nome-da-lib, ou ao colar o projeto contendo a lib em suas dependência, não travar o dev ao rodar um npm install e até mesmo não travar a pipeline de produção executada via docker em determinadas vps era algo crucial, pois no dia a dia qualquer impedimento custa tempo, tempo esse que custa dinheiro e algo que dependa de alguém, que seja frágil e que acabe gerando retrabalho travando o desenvolvimento é algo que não serve
+  
+- Apliquei os conceitos de modularização e composição no desenvolvimento dos componentes, buscando simplificar sua utilização e manutenção. A abordagem consiste em encapsular configurações predefinidas do Design System em componentes específicos, permitindo utilizá-los de forma mais direta e declarativa, como `<Button.Secondary />`, em vez de exigir a passagem explícita de diversas propriedades para definir sua aparência e comportamento.
+  
+  Essa estrutura reduz a repetição de configurações, facilita a leitura e o entendimento do código e centraliza a manutenção das variantes. Além disso, ao estabelecer padrões de utilização alinhados ao Design System, contribui para preservar a consistência visual e comportamental dos componentes, reduzindo o risco de implementações divergentes entre diferentes partes da aplicação.
+
+- Duvida: será que o que eu fiz, foi algo que ficou como legado? Será se deram continuidade?

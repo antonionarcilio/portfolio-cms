@@ -1,7 +1,7 @@
 ---
 first_name: Antônio
 last_name: Mascarenhas
-cover: https://res.cloudinary.com/do39nkgr5/image/upload/v1784758765/antonio-pixel-art-250x250_jjstea.jpg
+cover: "[[antonio-pixel-art-250x250.jpeg]]"
 expertise_area: Frontend
 bio: "[[content/about/index|Bio]]"
 seniority: "[[content/seniority/mid/index|Pleno]]"
@@ -9,7 +9,8 @@ company:
 location: São Luís, MA - Brasil
 highlight_text: Obsessão por qualidade em cada detalhe.
 experience_month: 64.8
-experience_company: "[[content/experience/escallo/index|Escallo]]"
+experience_company:
+  - "[[content/experience/escallo/index|Futurotec | Escallo]]"
 contacts:
   - "[[content/contact/linkedin/index|LinkedIn]]"
   - "[[content/contact/github/index|GitHub]]"
@@ -24,7 +25,9 @@ projects:
   - "[[content/project/escallo/blog-institucional-escallo/index|Blog Escallo]]"
   - "[[content/project/escallo/blog-institucional-futurotec/index|Blog Futurotec]]"
   - "[[content/project/escallo/site-institucional-futurotec/index|Futurotec Site]]"
-educations: "[[content/education/ads/index|Análise e Desenvolvimento de Sistemas]]"
+educations:
+  - "[[content/education/es/index|Engenharia de Software]]"
+  - "[[content/education/ads/index|Análise e Desenvolvimento de Sistemas]]"
 skills:
   - "[[content/skill/frontend/index|Frontend]]"
   - "[[content/skill/backend/index|Backend]]"
@@ -43,5 +46,4 @@ achievements:
   - "[[content/achievement/conclusao-da-graduacao/index|Conclusão da graduação]]"
   - "[[content/achievement/hello-world/index|Hello world]]"
   - "[[content/achievement/inicio-da-jornada-academica/index|Início da jornada acadêmica]]"
-  - "[[content/achievement/hello-world/index.en|Hello world]]"
 ---

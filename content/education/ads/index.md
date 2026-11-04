@@ -3,7 +3,10 @@ aliases:
   - Análise e Desenvolvimento de Sistemas
 description: Graduação
 degree_type: Tecnólogo
-institution: ISL Wyden
+institution: Wyden
 location: São Luís, MA - Brasil
 year: 2021
+start_year: 2018
+end_year: 2021
+institution_url: https://www.wyden.com.br
 ---

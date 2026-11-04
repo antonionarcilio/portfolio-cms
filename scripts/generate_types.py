@@ -39,6 +39,10 @@ TS_TYPE_MAP = {
 _IDENTIFIER = re.compile(r"^[A-Za-z_$][A-Za-z0-9_$]*$")
 
 
+def to_pascal_case(s: str) -> str:
+    return "".join(word.capitalize() for word in s.split("-"))
+
+
 def ts_key(field_name: str) -> str:
     """Quote keys that aren't valid JS identifiers (e.g. 'what_i_built')."""
     if _IDENTIFIER.match(field_name):
@@ -76,7 +80,7 @@ def generate(schema: dict, types_schema: dict) -> str:
         required_keys = set(
             content_fields.get(content_type, {}).get("required", [])
         )
-        type_name = content_type.capitalize() + "Fields"
+        type_name = to_pascal_case(content_type) + "Fields"
 
         lines.append(f"export interface {type_name} {{")
 

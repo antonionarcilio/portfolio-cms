@@ -42,6 +42,14 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787956528/blog-escallo-04_jq59bd.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787956528/blog-escallo-05_ezulng.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1787956528/blog-escallo-06_udcgfv.png
+gallery:
+  - "[[assets/mockups/blog-escallo-01.png]]"
+  - "[[assets/mockups/blog-escallo-02.png]]"
+  - "[[assets/mockups/blog-escallo-03.png]]"
+  - "[[assets/mockups/blog-escallo-04.png]]"
+  - "[[assets/mockups/blog-escallo-05.png]]"
+  - "[[assets/mockups/blog-escallo-06.png]]"
+order: 7
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"
   - "[[content/technology/elementor-pro/index|Elementor PRO]]"
@@ -49,6 +57,14 @@ stack:
   - "[[content/technology/google-analytics/index|Google Analytics]]"
   - "[[content/technology/google-tag-manager/index|Google Tag Manager]]"
   - "[[content/technology/php/index|PHP]]"
+team:
+  - "[[content/team-member/elis-souza/index|Elis Souza]]"
+  - "[[content/team-member/ken-matsumoto/index|Ken Omura]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/product-manager/index|Product Manager]]"
+  - "[[content/team-role/product-design/index|Product Design]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
 ---
 
 

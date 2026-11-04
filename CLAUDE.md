@@ -16,6 +16,8 @@ All content lives under `content/`, one subfolder per content type. Each entry i
 - `content/project/<company>/<project>/` — individual projects, linked from experience via `company` and to `stack` (technologies used).
 - `content/skill/<skill>/` — skill categories (e.g. frontend, backend, devops), each linking a list of `technologies`.
 - `content/technology/<tech>/` — leaf nodes describing individual tools/technologies (`aliases`, `description`). Referenced by skills, projects, and experience.
+- `content/team-member/<person>/` — team people (`aliases`, `avatar`, `expertise_area`, `linkedin`), referenced by `project.team`.
+- `content/team-role/<role>/` — reusable role labels (`aliases`, `description` with what's expected of a collaborator in that role; entity names and aliases in English, e.g. product-manager, frontend-developer). Referenced by `project.team_roles` positionally paired with `project.team`, and by `team-member.expertise_area`.
 - `content/education/`, `content/seniority/`, `content/achievements/`, `content/contacts/<channel>/` — smaller standalone entry types, each with their own minimal frontmatter shape.
 
 ## Content conventions

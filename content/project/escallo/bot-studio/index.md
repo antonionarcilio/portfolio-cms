@@ -37,6 +37,11 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789236748/MacBook_Air_-_7_tls2j7.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789236748/MacBook_Air_-_10_bi1wqd.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789236748/MacBook_Air_-_8_usp5t4.png
+gallery:
+  - "[[assets/mockups/bot-studio-screen-01.png]]"
+  - "[[assets/mockups/bot-studio-screen-02.png]]"
+  - "[[assets/mockups/bot-studio-screen-03.png]]"
+order: 5
 stack:
   - "[[content/technology/typescript/index|TypeScript]]"
   - "[[content/technology/react/index|React]]"
@@ -45,5 +50,13 @@ stack:
   - "[[content/technology/graphql/index|GraphQL]]"
   - "[[content/technology/docker/index|Docker]]"
   - "[[content/technology/figma/index|Figma]]"
+team:
+  - "[[content/team-member/breno-alexsandro/index|Breno Alexsandro]]"
+  - "[[content/team-member/arthur-zatta/index|Arthur Zatta]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/developer-manager/index|Developer Manager]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
+  - "[[content/team-role/product-design/index|Product Design]]"
 ---
 

@@ -12,8 +12,7 @@ description: |-
 
   Também trabalhei na **otimização da comunicação com a API**, reduzindo requisições redundantes por meio da consolidação de queries GraphQL em uma única chamada por página.
 excerpt: Plataforma que centraliza autenticação e controle de acesso às soluções da empresa. Atuei no frontend desde a concepção, evoluindo funcionalidades, Design System, UI/UX e performance.
-objective: |-
-  **Centralizar o acesso às diferentes soluções do ecossistema da empresa**, oferecendo aos clientes uma *experiência unificada* de **autenticação, acesso e gerenciamento de permissões**. Ao longo da evolução do produto, também passou a incorporar soluções internas utilizadas por diferentes áreas da empresa.
+objective: "**Centralizar o acesso às diferentes soluções do ecossistema da empresa**, oferecendo aos clientes uma *experiência unificada* de **autenticação, acesso e gerenciamento de permissões**. Ao longo da evolução do produto, também passou a incorporar soluções internas utilizadas por diferentes áreas da empresa."
 what_i_built: |-
   Atuei, em parceria com outro desenvolvedor, na implementação do produto desde sua concepção inicial, como **desenvolvedor frontend** na construção e evolução das principais funcionalidades. Com a evolução do produto, também assumi responsabilidades relacionadas a **UI/UX e design de interfaces**.
 
@@ -42,6 +41,11 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086887/MacBook_Air_-_3_myn96j.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086887/MacBook_Air_-_2_zctje8.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086886/MacBook_Air_-_1_dpsffp.png
+gallery:
+  - "[[assets/mockups/portal-screen-01.png]]"
+  - "[[assets/mockups/portal-screen-02.png]]"
+  - "[[assets/mockups/portal-screen-03.png]]"
+order: 1
 stack:
   - "[[content/technology/typescript/index|TypeScript]]"
   - "[[content/technology/nextjs/index|Next.js]]"
@@ -52,4 +56,16 @@ stack:
   - "[[content/technology/docker/index|Docker]]"
   - "[[content/technology/figma/index|Figma]]"
   - "[[content/technology/graphql/index|GraphQL]]"
+team:
+  - "[[content/team-member/breno-alexsandro/index|Breno Alexsandro]]"
+  - "[[content/team-member/carolina-procopio/index|Carolina Procopio]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+  - "[[content/team-member/arthur-zatta/index|Arthur Zatta]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/developer-manager/index|Developer Manager]]"
+  - "[[content/team-role/product-design/index|Product Design]]"
+  - "[[content/team-role/product-design/index|Product Design]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
 ---

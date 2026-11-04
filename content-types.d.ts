@@ -7,7 +7,7 @@ export interface RootFields {
   company?: string;
   contacts: string | string[];
   cover?: string;
-  educations: string;
+  educations: string | string[];
   experience_company: string | string[];
   experience_month?: number;
   expertise_area: string;
@@ -50,7 +50,11 @@ export interface EducationFields {
   aliases: string | string[];
   degree_type: string;
   description: string;
+  end_year?: number;
   institution: string;
+  institution_url?: string;
+  location?: string;
+  start_year?: number;
   year: number;
 }
 
@@ -82,10 +86,14 @@ export interface ProjectFields {
   end?: string;  // YYYY-MM-DD
   excerpt: string;
   expertise_area: string;
+  gallery?: string | string[];
   objective: string;  // Markdown
+  order?: number;
   result: string;  // Markdown
   stack: string | string[];
   start: string;  // YYYY-MM-DD
+  team: string | string[];
+  team_roles: string | string[];
   url?: string;
   what_i_built: string;  // Markdown
 }
@@ -99,6 +107,18 @@ export interface SkillFields {
   description: string;
   icon: string;
   technologies: string | string[];
+}
+
+export interface TeamMemberFields {
+  aliases: string | string[];
+  avatar: string;
+  expertise_area?: string | string[];
+  linkedin?: string;
+}
+
+export interface TeamRoleFields {
+  aliases: string | string[];
+  description: string;
 }
 
 export interface TechnologyFields {

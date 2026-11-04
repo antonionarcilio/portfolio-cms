@@ -6,8 +6,7 @@ description: |-
 
   Atuei no desenvolvimento e manutenção do website institucional da Futurotec, participando desde a estruturação inicial do projeto até sua evolução contínua. Implementei funcionalidades customizadas, eventos de rastreamento e integrações voltadas ao monitoramento de interações estratégicas dos usuários, além de otimizações relacionadas à performance, responsividade, Core Web Vitals e experiência de navegação.
 excerpt: Website institucional com performance, SEO técnico e integrações de marketing, com validação de leads e rastreamento de eventos.
-objective: |-
-  **Atualizar a identidade visual** do site institucional da Futurotec, **modernizando a apresentação digital** e alinhando a interface ao *posicionamento atual da marca*, **sem comprometer** a estrutura de conteúdos e funcionalidades necessárias para sua presença institucional.
+objective: "**Atualizar a identidade visual** do site institucional da Futurotec, **modernizando a apresentação digital** e alinhando a interface ao *posicionamento atual da marca*, **sem comprometer** a estrutura de conteúdos e funcionalidades necessárias para sua presença institucional."
 what_i_built: |-
   Atuei como Frontend Developer **desde a estruturação inicial do projeto**, participando da **implementação do novo site** e de sua evolução contínua.
 
@@ -35,6 +34,13 @@ start: 2022-12-05
 end: 2023-04-28
 cover:
 carrousel:
+gallery:
+  - "[[assets/mockups/ftec-01.png]]"
+  - "[[assets/mockups/ftec-02.png]]"
+  - "[[assets/mockups/ftec-03.png]]"
+  - "[[assets/mockups/ftec-04.png]]"
+  - "[[assets/mockups/ftec-05.png]]"
+order: 8
 stack:
   - "[[content/technology/wordpress/index|WordPress]]"
   - "[[content/technology/elementor-pro/index|Elementor PRO]]"
@@ -43,5 +49,13 @@ stack:
   - "[[content/technology/google-analytics/index|Google Analytics]]"
   - "[[content/technology/google-tag-manager/index|Google Tag Manager]]"
   - "[[content/technology/php/index|PHP]]"
+team:
+  - "[[content/team-member/elis-souza/index|Elis Souza]]"
+  - "[[content/team-member/ken-matsumoto/index|Ken Omura]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/product-manager/index|Product Manager]]"
+  - "[[content/team-role/product-design/index|Product Design]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
 ---
 

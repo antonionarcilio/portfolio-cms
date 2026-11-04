@@ -10,6 +10,7 @@ Validation rules (all checked against staged files only):
   6. Field types match types-schema.yaml
   7. No unknown fields (not in types-schema.yaml)
   8. Required fields (in types-schema) are not empty
+  8b. project `team` and `team_roles` lists have the same length
   9. Wikilink targets correspond to existing tracked files
 
 Exit code 0 = valid, 1 = invalid.
@@ -69,16 +70,18 @@ def get_staged_files() -> set[str]:
     return {line.strip() for line in result.stdout.splitlines() if line.strip()}
 
 
-def get_all_content_files() -> set[str]:
-    """Return all tracked files under content/ via the git index."""
+def get_all_tracked_files() -> tuple[set[str], set[str]]:
+    """Return (full_paths, basenames) of all tracked files in the repo."""
     result = subprocess.run(
-        ["git", "ls-files", "--cached", "content/"],
+        ["git", "ls-files", "--cached"],
         capture_output=True, text=True, cwd=REPO_ROOT,
     )
     if result.returncode != 0:
         print("Error: git ls-files failed", file=sys.stderr)
         sys.exit(1)
-    return {line.strip() for line in result.stdout.splitlines() if line.strip()}
+    paths = {line.strip() for line in result.stdout.splitlines() if line.strip()}
+    basenames = {Path(p).name for p in paths}
+    return paths, basenames
 
 
 def classify_path(rel_path: str):
@@ -122,11 +125,29 @@ def classify_path(rel_path: str):
 
 
 def resolve_wikilink_target(target: str) -> str:
-    """Normalise a wikilink target to a repo-relative file path."""
+    """Normalise a wikilink target to a repo-relative file path.
+
+    Targets that already carry a file extension (e.g. .png, .jpg) are kept
+    as-is; targets without an extension get .md appended (Obsidian default).
+    """
     target = target.split("|")[0].strip()
-    if not target.endswith(".md"):
+    if not Path(target).suffix:
         target += ".md"
     return target
+
+
+def wikilink_candidates(target: str) -> list[str]:
+    """Possible repo-relative paths a wikilink may resolve to.
+
+    Links to EN entries are commonly written without the final `.md`
+    (e.g. `content/about/index.en`), which must resolve to
+    `content/about/index.en.md`. Both forms are accepted.
+    """
+    resolved = resolve_wikilink_target(target)
+    candidates = [resolved]
+    if not resolved.endswith(".md"):
+        candidates.append(resolved + ".md")
+    return candidates
 
 
 def _extract_wikilinks(value):
@@ -281,7 +302,11 @@ def validate_bilingual(rel_path: str, staged: set[str]) -> None:
 
 
 def validate_frontmatter(
-    rel_path: str, schema: dict, types_schema: dict, all_files: set[str]
+    rel_path: str,
+    schema: dict,
+    types_schema: dict,
+    all_files: set[str],
+    all_basenames: set[str],
 ) -> None:
     """Rule 5-9: parse YAML, check required fields, validate types, validate
     wikilinks."""
@@ -373,16 +398,38 @@ def validate_frontmatter(
                 f"must not be empty"
             )
 
+    # Rule 8b: project 'team' and 'team_roles' must align positionally
+    if content_type == "project" and "team" in fm and "team_roles" in fm:
+        def _count(value) -> int:
+            if isinstance(value, list):
+                return len(value)
+            if isinstance(value, str) and value.strip():
+                return 1
+            return 0
+
+        n_members, n_roles = _count(fm["team"]), _count(fm["team_roles"])
+        if n_members != n_roles:
+            errors.append(
+                f"{rel_path}: 'team' has {n_members} entries but "
+                f"'team_roles' has {n_roles} — both lists must have the "
+                f"same length (they map to each other by position)"
+            )
+
     # Rule 9: Wikilink validation
     for field_name, field_value in fm.items():
         links = _extract_wikilinks(field_value)
         for target in links:
-            resolved = resolve_wikilink_target(target)
-            if resolved not in all_files:
+            candidates = wikilink_candidates(target)
+            # Accept match by full path or by bare filename (Obsidian fuzzy
+            # resolution for assets like images that live outside content/).
+            found = any(c in all_files for c in candidates) or any(
+                Path(c).name in all_basenames for c in candidates
+            )
+            if not found:
                 errors.append(
                     f"{rel_path}: field '{field_name}' wikilink "
                     f"target '{target}' does not exist "
-                    f"(expected '{resolved}' in repository)"
+                    f"(expected '{candidates[0]}' in repository)"
                 )
 
 
@@ -394,7 +441,7 @@ def main() -> int:
     schema = load_yaml(SCHEMA_PATH)
     types_schema = load_yaml(TYPES_SCHEMA_PATH)
     staged = get_staged_files()
-    all_files = get_all_content_files()
+    all_files, all_basenames = get_all_tracked_files()
 
     content_staged = {f for f in staged if f.startswith("content/")}
 
@@ -402,7 +449,9 @@ def main() -> int:
         validate_structure(rel_path, schema)
         validate_bilingual(rel_path, content_staged)
         if rel_path.endswith(".md"):
-            validate_frontmatter(rel_path, schema, types_schema, all_files)
+            validate_frontmatter(
+                rel_path, schema, types_schema, all_files, all_basenames
+            )
 
     if errors:
         print(

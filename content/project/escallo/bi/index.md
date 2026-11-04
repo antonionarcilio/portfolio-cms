@@ -43,6 +43,11 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789240415/MacBook_Air_-_11_u9jjpm.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789240415/MacBook_Air_-_12_cfsz3y.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789240415/MacBook_Air_-_13_xzscva.png
+gallery:
+  - "[[assets/mockups/bi-screen-01.png]]"
+  - "[[assets/mockups/bi-screen-02.png]]"
+  - "[[assets/mockups/bi-screen-03.png]]"
+order: 2
 stack:
   - "[[content/technology/javascript/index|JavaScript]]"
   - "[[content/technology/react/index|React]]"
@@ -50,5 +55,15 @@ stack:
   - "[[content/technology/redux/index|Redux]]"
   - "[[content/technology/material-ui/index|Material UI]]"
   - "[[content/technology/graphql/index|GraphQL]]"
+team:
+  - "[[content/team-member/adonhiram-correia/index|Adonhiram Correia]]"
+  - "[[content/team-member/breno-alexsandro/index|Breno Alexsandro]]"
+  - "[[content/team-member/thalles-neves/index|Thalles Neves]]"
+  - "[[content/team-member/antonio-mascarenhas/index|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/product-manager/index|Product Manager]]"
+  - "[[content/team-role/backend-developer/index|Backend Developer]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
+  - "[[content/team-role/frontend-developer/index|Frontend Developer]]"
 ---
 

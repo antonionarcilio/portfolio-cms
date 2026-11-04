@@ -39,6 +39,11 @@ carrousel:
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086897/MacBook_Air_-_6_opxeko.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086896/MacBook_Air_-_5_emstj4.png
   - https://res.cloudinary.com/do39nkgr5/image/upload/v1789086894/MacBook_Air_-_4_yf888u.png
+gallery:
+  - "[[assets/mockups/go-screen-01.png]]"
+  - "[[assets/mockups/go-screen-02.png]]"
+  - "[[assets/mockups/go-screen-03.png]]"
+order: 3
 stack:
   - "[[content/technology/typescript/index.en|TypeScript]]"
   - "[[content/technology/nextjs/index.en|Next.js]]"
@@ -48,5 +53,17 @@ stack:
   - "[[content/technology/zod/index.en|Zod]]"
   - "[[content/technology/docker/index.en|Docker]]"
   - "[[content/technology/figma/index.en|Figma]]"
+team:
+  - "[[content/team-member/breno-alexsandro/index.en|Breno Alexsandro]]"
+  - "[[content/team-member/carolina-procopio/index.en|Carolina Procopio]]"
+  - "[[content/team-member/antonio-mascarenhas/index.en|Antônio Mascarenhas]]"
+  - "[[content/team-member/arthur-zatta/index.en|Arthur Zatta]]"
+  - "[[content/team-member/antonio-mascarenhas/index.en|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/developer-manager/index.en|Developer Manager]]"
+  - "[[content/team-role/product-design/index.en|Product Design]]"
+  - "[[content/team-role/product-design/index.en|Product Design]]"
+  - "[[content/team-role/frontend-developer/index.en|Frontend Developer]]"
+  - "[[content/team-role/frontend-developer/index.en|Frontend Developer]]"
 ---
 

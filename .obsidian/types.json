@@ -3,9 +3,12 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "expertise_area": "text",
+    "expertise_area": "multitext",
     "site": "text",
     "year": "number",
+    "start_year": "number",
+    "end_year": "number",
+    "institution_url": "text",
     "technologies": "multitext",
     "contact": "multitext",
     "first_name": "text",
@@ -38,6 +41,7 @@
     "highlight_text": "text",
     "experience_month": "number",
     "experience_company": "multitext",
+    "educations": "multitext",
     "project": "multitext",
     "skills": "multitext",
     "stack": "multitext",
@@ -46,6 +50,12 @@
     "what_i_built": "text",
     "challenge": "text",
     "result": "text",
-    "carrousel": "multitext"
+    "carrousel": "multitext",
+    "gallery": "multitext",
+    "name": "multitext",
+    "avatar": "text",
+    "linkedin": "text",
+    "team": "multitext",
+    "team_roles": "multitext"
   }
 }

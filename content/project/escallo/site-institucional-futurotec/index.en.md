@@ -35,6 +35,13 @@ start: 2022-12-05
 end: 2023-04-28
 cover:
 carrousel:
+gallery:
+  - "[[assets/mockups/ftec-01.png]]"
+  - "[[assets/mockups/ftec-02.png]]"
+  - "[[assets/mockups/ftec-03.png]]"
+  - "[[assets/mockups/ftec-04.png]]"
+  - "[[assets/mockups/ftec-05.png]]"
+order: 8
 stack:
   - "[[content/technology/wordpress/index.en|WordPress]]"
   - "[[content/technology/elementor-pro/index.en|Elementor PRO]]"
@@ -43,5 +50,13 @@ stack:
   - "[[content/technology/google-analytics/index.en|Google Analytics]]"
   - "[[content/technology/google-tag-manager/index.en|Google Tag Manager]]"
   - "[[content/technology/php/index.en|PHP]]"
+team:
+  - "[[content/team-member/elis-souza/index.en|Elis Souza]]"
+  - "[[content/team-member/ken-matsumoto/index.en|Ken Omura]]"
+  - "[[content/team-member/antonio-mascarenhas/index.en|Antônio Mascarenhas]]"
+team_roles:
+  - "[[content/team-role/product-manager/index.en|Product Manager]]"
+  - "[[content/team-role/product-design/index.en|Product Design]]"
+  - "[[content/team-role/frontend-developer/index.en|Frontend Developer]]"
 ---
 
