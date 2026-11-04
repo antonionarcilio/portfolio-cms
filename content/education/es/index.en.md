@@ -4,7 +4,7 @@ aliases:
 description: Specialization
 degree_type: Specialization
 institution: PUC Minas
-location: Online
+location: Online - Brazil
 year: 2027
 start_year: 2026
 end_year: 2027
