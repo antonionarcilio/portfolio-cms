@@ -10,7 +10,7 @@ export interface RootFields {
   educations: string | string[];
   experience_company: string | string[];
   experience_month?: number;
-  expertise_area: string;
+  expertise_area: string | string[];
   first_name: string;
   highlight_text?: string;
   last_name: string;

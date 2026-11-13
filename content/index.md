@@ -2,7 +2,8 @@
 first_name: Antônio
 last_name: Mascarenhas
 cover: "[[antonio-pixel-art-250x250.jpeg]]"
-expertise_area: Frontend
+expertise_area:
+  - Frontend Engineer
 bio: "[[content/about/index|Bio]]"
 seniority: "[[content/seniority/mid/index|Pleno]]"
 company:
