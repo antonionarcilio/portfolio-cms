@@ -3,9 +3,9 @@ first_name: Antônio
 last_name: Mascarenhas
 cover: "[[antonio-pixel-art-250x250.jpeg]]"
 expertise_area:
-  - Frontend Engineer
+  - Frontend Software Engineer
 bio: "[[content/about/index.en|Bio]]"
-seniority: "[[content/seniority/mid/index.en|Mid-level]]"
+seniority: "[[content/seniority/senior/index.en|Senior]]"
 company:
 location: São Luís, MA - Brazil
 highlight_text: Obsession with quality in every detail.
